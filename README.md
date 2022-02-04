@@ -147,6 +147,7 @@ If the complaints are valid (and I lean toward assuming they are), then I wonder
 [Back to top](#overview)
 
 <a id="elevator-pitch"></a>
+
 # Research elevator pitch & discussion
 
 ## The elements of a research pitch
