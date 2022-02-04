@@ -1,4 +1,4 @@
-__CSC595 | Term Portfolio Project__ | Ashley Blacquiere
+**CSC595** | **Term Portfolio Project** | Ashley Blacquiere
 
 ***
 
