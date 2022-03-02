@@ -1,13 +1,11 @@
-**CSC595** | **Term Portfolio Project** | Ashley Blacquiere
+__CSC595 | Term Portfolio Project__ | Ashley Blacquiere V00134139
 
 ***
 
 <a id="overview"></a>
 
 # Overview
-
 This document is a record of my learning journey in *CSC 595 Research Methods* with Dr. Hausi Muller. If you're interested in learning more about Lean check out the [Lean Prover Community](https://leanprover-community.github.io/)!
-
 
 # Table of contents
 
@@ -15,8 +13,10 @@ This document is a record of my learning journey in *CSC 595 Research Methods* w
 2. [Research elevator pitch & discussion](#elevator-pitch)
 3. [Notes & reflections on assigned homework](#homework-reflections)
 4. [Research talk best practices & discussion](#research-talk)
-5. [References](#references)
-6. [Useful resources](#resources)
+5. [Proposed talk: How to ask good questions](#proposed-talk)
+6. [Paper review: Constructive Mathmatics and Computer Programming](#paper-review)
+7. [References](#references)
+8. [Useful resources](#resources)
 
 ***
 
@@ -142,6 +142,194 @@ This is difficult to articulate because I'm not *inside* at the moment - I'm loo
 
 If the complaints are valid (and I lean toward assuming they are), then I wonder - as stated above - if there is something about the process or about the academic culture that fosters this subversive behaviour (i.e. reviewers trashing papers) in terms of review. Or is it just the power of \[supposed\] anonymity that encourages this behaviour? If it is cultural, then *should* we be looking for an alternative to peer review? I don't have any good suggestions, but I am certainly wary of historical institutions that resist change because of *a priori* logic.
 
+## Lecture 9 (Feb. 7, 2022)
+
+__Class notes:__
+* Clearly stating benefits are a good way to prompt potential questions.  I think my "my research also helps me..." bit at the end was perhaps not quite on the nose enough? Or maybe framing it as "benefit" just sounds better.
+* Those who spoke more slowly were definitely easier to understand and ask questions of.
+
+* Next activity will be to review a paper in a group. Choose a paper that is representative of your domain, or that is just good - that everyone should read.
+
+Important review criteria:
+* Significance
+* Soundness
+* Novelty
+* Verifiability and transparency
+* Presentation
+* Also: Enjoyment - from a reader perspective
+
+Thoughts on my pitch:
+* Well, I forgot my last point... :D Probably need to come up with a better exit strategy for if that happens.
+* I think my pace was good, and I think the Alice and Bob thing worked.
+* I was actually nervous - not until I was standing at the podium, but I felt some nerves. This surprised me, as I spend a lot of time in classrooms in front of students (see my discussion of nervousness above), and this was a fairly safe space! I put it down to this being one of the few times in recent years that I have presented as a student in front of students - and I want everyone to like me! :)  
+
+__General reflection:__ I've been thinking a bit about questions: There was lots of opportunity to ask questions during the pitch presentations, and they were all quite good, I think. At research talks, however, it's not atypical to have those meandering type of questions that are often thought of as posturinng. In, I think, Simon Peyton-Jones' talk he addressed the idea of the "agressive" question and how to handle it during a talk, but I'm thinking about this from the other perspective: How to *ask* a good question.
+
+The reason being that I think some of those rambling questions might less often be aggressive posturing, and perhaps more often a symptom of uncertainty. I think there is perhaps value in discussing the *right* way to ask a question.
+
+Perhaps most important would be considering some basic skills:
+- Take notes during talks.
+- Ask yourself reflective questions during the talk: how would you approach this problem? how does the problem relate to your domain? 
+- Look for question openings - the things the speaker leaves out \[intentionally?\]
+- At the end of a talk always have a question to ask.
+
+But how to ask the question? Getting to the point is critical. Keeping the question short obviously keeps everyone happy, and respects the audience - taking longer to ask a question means less time for other questions. Name dropping (and related) should be avoided, unless actually relevant for some reason. 
+
+## Lecture 10 (Feb. 10, 2022)
+Video recording of lecture failed, and I was unfortunately able to attend class this day.
+
+## Lecture 11 (Feb. 14, 2022)
+__Class notes:__
+- Knowing your work cycle (and supervisor's work cycle) is valuable, since it permits better planning - perhaps allows one to stay on task.
+- Methodology is important - but how do we know what methodology to use?
+    - This is clearly something I should discuss in more detail with Bruce.
+- What are the top 3 (or 10) papers in your research area and who are the top 3 (or 10) researchers in your area? 
+    - I like this, but I don't know the answer. I think in part because I'm a little unsure where I fit overall - definitely follow-up with Bruce.
+- I really like the 'rules of thumb' below. Especially in combination with Dr. Muller's advice that we should pick something that we need to improve on. In my case, I feel like 'developing a mature overview of the discipline' is a key thing to focus on. 
+<img src="img/rules-of-thumb.png" width="400">
+
+- I like the following advice too, but I wonder why "proof" (and "prove") are unsubstantiated claims?
+<img src="img/technical-thesis.png"  width="400">
+
+- I should look into how to use Zotero to keep an annotated bibliography. Some possible resources to look into:
+    - https://libanswers.caltech.edu/faq/357605
+    - https://guides.zsr.wfu.edu/zotero/annotated-bib
+    - https://gist.github.com/pridkett/320873
+    
+__General reflections:__ I enjoyed this talk - lots of good advice and reminders on how best to approach and organize one's work. I found the two slides linked to above to be the most interesting and valuable now, and potentially into the future (not that the 'managing your time' and 'managing your supervisor' bit wasn't valuable - there was lots there to consider, but I'm less concerned with my personal time management at the moment). As mentioned above, I think that I'm most interested in better understanding my place within my discipline - and understanding what my discipline is. 
+
+For some context: I've been spending a lot of time learning about the Lean programming language, but most of that time has not been geared too directly toward the cryptographic applications that I'm moving toward now. Most of the Lean user base are mathematicians looking to improve the mathlib library, and most of them are unintersted in formal logic and the underlying type theory of Lean. I find this quite interesting, and would like to learn more, but I feel like I've only so far been exposed to just a small slice of that discipline.
+
+## Lecture 12 (Feb. 17, 2022)
+__Class notes:__
+I took the following notes during research pitches. Notes were intended to consider some key points in an effort to generate useful questions.
+- Data visualization
+    - Fish farms - susceptible to diseases
+    - VI - rich area for fish farming
+    - Which fish farms are transferring disease
+    - Visualization tools to support their research
+    - Question: Is it possible that the visualization will be real-time, or static?
+- HCI 
+    - Visualization of programming drag and drop interface
+    - Visualization can help learners to adopt difficult concepts
+    - Question: What language will you be teaching?
+- Bioinfomatics
+    - Biomarkers that indicate why we lose so many honeybees over winters
+    - Benchmarking different bio markers using statistical tools
+    - Question: Why is gut health the target?
+- Geospatial databases
+    - Database queries return most accurate result based on query
+    - Geospatial databases are different: return coordinates, rather than search query
+    - Question: What kind of criteria are you hoping to optimize? Travel distance based on mode of travel, etc.?
+- Quantum computing
+    - Quantum computers are small and contain a lot of noise
+    - Use classical software engineering tools to apply to QC to improve performance
+    - Example: Scheduling system since the scheduling problem is difficult, or routing 
+- Quantum computing
+    - Designing ML algorithms for qubits
+    - Encoding classial data as quantum data
+    - Question: How do you know your algorithms ar right? Based on running time and results.
+- Quantum walks
+    - Search algorithm on structured data set
+    - Don't know a lot about them - difficult to know what problems are best for quantum walks
+    - Benefit to other researches
+    - Classical random walks - similar
+    - Grover's search - related quantum algorithm
+    - Question: What does your intuition say about the types of problems that will be most profitable?
+- Qualitative study
+    - Reasons for the gender gap in computer science 
+    - Question: Are you interested in people who have started and dropped, or in people who have elected other disciplines other than computer science when computer science was an option, or both?
+    
+__Process for paper review:__
+1. Score
+2. Summarize paper - especially point out contributions. This is valuable to the reviewers understanding, and demonstrates to the author that their work was understood (or not understood).
+3. Strengths and weaknesses - separate and itemize for clarity
+4. Comments to authors (many of the following criteria are typically defined in the CfP, so there is often some measure for reviewers. Not all of these need to be represented in terms of strengths and weaknesses):
+    - Significance: It is the author's responsibilty to determine significance, but it should be clear to the reviewer
+    - Soundness: Paper must answer the questions it poses with rigor. Probably the most difficult to asses.
+    - Novelty: The most subjective?
+    - Verifiability and transparency: The source of data and methodology of experiments should be clear to the reviewer. The data should also clearly apply to the research question. This is probably the second hardest criteria to asses.
+    - Presentation: Adherence to ACM or IEEE formatting standards (as defined in CfP) is critical.
+5. Questions for authors to respond to - constructure and encouraging questions are best.
+
+__General notes:__
+I felt pretty good about some of the questions I came up with, but I didn't get to ask many of then - was a bit too difficult on Zoom. Nevertheless, I think the process I took above generate some good ideas. I didn't note speaker names because that felt a bit too challenging with speed of speech and accents, etc.
+
+The process listed for the paper review will, I think, be fairly challenging. The list of five criteria (significance, soundness, etc.) seem to overlap in some cases, but perhaps that's just my perspective as a novice, or just my impression on first examination. Maybe a rubric would help? Perhaps too perscriptive?
+
+## Lecture 13 (Feb. 28, 2022)
+__Class notes:__
+Slides for this class come from [Writing a thesis or dissertation](www.scribbr.com/category/dissertation). The following notes are some best practices and key notes from the lecture:
+- Master's thesis : 100 - 200 pages. 
+- PhD thesis: minimum 200 pages, typically more.
+- A thesis is typically original research, although for a masters degree it may be a summary of knowledge rather than adding to new knowledge.
+- Thesis format is determined by the institution, and typically the library (since that is where it will be catalogued). UVic sets out a specific set of [guidelines to follow](www.uvic.ca/students/graduate/thesis-dissertation/index.php).
+- Methodology is critical - it is necessary to use a recognizeable and respected methodology. 
+- Discussion is a key component of the thesis that demonstrates the value of the thesis
+- Conlusion (arguably the most important chapter) is composed of:
+    - Summary
+    - Articulate whether research questions posed in chapter 1 have been answered (usually you do answer them, since questions can be modified and further specified as research progresses)
+    - Articulate the contributions - this can be in a particular context, or very abstract. Typically these are actually listed in bullet point form.
+- Bibliography: All resources every consulted in research (not required)
+- References: All resources *cited* in research (required)
+- Write acknowledgements early! Then you have time to revise as research progresses.
+- Similar for abstract: Start it early, but it's progressive work - you won't get it right on the first shot. The following belongs in the abstract:
+    - State main topic and aims of research
+    - Describe the methods you use
+    - Summarize the main contributions
+    - State the significance
+    - State the conclusions
+    - The abstract is *not* an introduction
+- What's the difference between *contribution* and *significance*:
+    - Contribution: the things that you have done that are novel, that support a research community, or that in general help to advance a particular field, group of people, or even a software system. Contribution is related to novelty. Contributions tend to be generic - they don't necessarily answer research questions directly, but may speak to a *group* of related questions.
+    - Significance: is about the importance of the result at the time of publishing. Not everyone has to publish at the highest level of signifiance - but everyone should demonstrate a learning progression. Significance is measured in the context of other research and potentially demonstrates a benefit to society. 
+- A glossary is a useful tool (at the beginning of the thesis) to help the audience better understand the upcoiming content of the thesis. Start the glossary from the first day of writing.
+- It's good practice to write the introduction early, as this will change dramatically over the course of research. To modify an introduction is easier than to write from scratch... An introduction should include:
+    - Establish research topic
+    - Problem statement - just state where you currently are
+    - Motivation and background - perhaps this will change if your research target changes
+    - Definte the scope of research - if you define the scope you don't have to say "this is outside of the scope of my research..."
+    - Show the work's significance, relevance, impact - somewhat interchangeable. Thinking through this helps bound and direct your research.
+    - State research questions and objectives - this is hard. It depends heavily on evaluation.
+    - State expected contributions - should appear in abstract, introduction and conclusions. 
+    - Give an overview of your structure - one paragraph, just house-keeping
+    
+__General notes:__
+In retrospect, in response to my last set of general notes, and after having completed most of the individual paper review, the five criteria of the review process are more distinct than I initially thought. This lecture was fairly useful in helping to provide some distinguishing features as well, especially in regards to contributions and how they relate to novelty, and in contrast to significance. 
+
+I'm still pretty far out from making writing my main activity, but I can definitely appreciate the advice provided today - write early! write often! Probably better advice has rarely been given; I've certainly handed it out to my own students on many occasions (and, on many occasions, have despaired to learn they didn't take such excellent advice... haha). So in with that in mind, let's give it a go: 
+
+### Introduction
+
+#### Establish research topic
+- Formal verification tools in Lean 
+- Monadic programming and dependent type theory
+- Game-based proof of security in cryptographic protocols
+
+#### Problem statement
+The cryptographic primitives presented in [6] depend on a proof of the left-over hash lemma. I aim to develop the necessary theory and tactics in Lean to provide a proof of the left-over hash lemma.
+
+#### Motivation and background 
+Proof assistants and formal verification tools are becoming more prevalent in research mathematics. Cryptographic researchers have also increasingly been using formal verification tools (e.g. EasyCrypt, and various libraries of Coq). This is a developing field that has potential significance and societal benefit.
+
+#### Definte the scope of research
+- Lean proof assistant and programming language
+- Monadic programming
+- Dependent type theory (not really, but I find it interesting, and understanding it helps me understand Lean)
+- Computational soundness (Bruce's research)
+- Game-based security proofs of cryptographic security
+
+#### Show the work's significance, relevance, impact 
+- Adding more theory to the Lean mathlib library is a big benefit to the Lean community
+- Demonstrating security in cryptographic protocols / primitives is important to communications...
+
+#### State research questions and objectives
+
+#### State expected contributions
+- Additional mathlib libraries
+
+#### Give an overview of your structure
+
 ***
 
 [Back to top](#overview)
@@ -167,7 +355,7 @@ If the complaints are valid (and I lean toward assuming they are), then I wonder
 - Finish with a call to action - give the audience an opening for a question, or an action to take to learn more. 
 - Consider the following template [4]:
 
-<img src="elevator-pitch-template.png" width="400">
+<img src="img/elevator-pitch-template.png" width="400">
 
 ## The elements of a good research pitch performance
 Assuming a non-specialist audience [5]:
@@ -327,6 +515,112 @@ I've only done this for one set of lectures, but at this point, I think I'm a co
 ***
 [Back to top](#overview)
 
+<a id="proposed-talk"></a>
+
+# Proposed Talk: How to pose good questions at a research talk
+
+## Motivation
+After our in-class reseach elevator pitch presentations I was reflecting on the process of asking good questions of a researcher during a research talk. I believe that asking questions is an important step in the learning process: As an instructional faculty member of a teaching college I try to push my students to ask questions as often as possible because I think that asking questions, even simple simple questions, helps to establish concrete foundations for learning. Opening a dialogue can be the first step to a metacognitive approach to learning. 
+
+There are many good questions asked at research talks, but there are also many bad questions (e.g., aggressive, posturing or rambling questions). Those aggressive and posturing types of questions are, I think, outside of the scope of what we want to accomplish here (but maybe not? Can an aggressive question be a good question?); I'm most interested in identifying what makes a *good* question, maybe in order to avoid the rambling style of question that sometimes manifests at research talks.
+
+I suppose in particular, since we've talked a lot about presentation skills it seeemed to me that there was a gap in not looking at the other side of a talk or lecture. Answering questions is something that was addressed in some of the videos we watch (see [Simon Peyton Jones' response to aggressive questions](https://www.youtube.com/watch?v=sT_-owjKIbA&t=2819s), for example), but research is meant to be a *dialog*, and asking good questions is clearly a key part of that process.
+
+## The purpose of this talk
+My goal here is for this talk to act as a starting point for an open discussion on how to formulate good questions. What I propose here isn't meant to be perscriptive, and I'm not claiming to have all the answers. My recommendations provided here stem from what has worked for me (as a 'questioner') and what I hope will be true of those who would ask me questions if I was the one giving a talk. You may agree with some things I say, you may vehemently disagree with some things I say - I would be happy to hear both perspectives since I think the way forward is through open dialogue. I certainly hope that this is useful as well, though I wouldn't be surprised to learn that many of you already have your own process for asking good questions; nevertheless, if this sparks some dialogue on the topic I hope that we can all stand to learn something.
+
+## The qualities of a good question
+At the risk of being labeled a reductionist I'm going to propose a number of qualities that I think contribute to making a good question. Of course, every opportunity for questions is different and one cannot always hope to articulate the 'perfect' question; yet I do believe that aspiring to the core qualities below could serve to improve any potential questions. Good questions are:
+- Concise: A rambling question is clearly to be avoided, but one can still be tempted to add a lot of context to a question even when it's well-articulated. *Prune relentlessly* is some of the advice we were given for creating a research talk (especially re: slides) - the same goes for questions. Respect the intelligence and time of both the speaker and the audience and don't overdo the references and name-dropping.
+- Coherent: Coherence and conciseness go hand-in-hand, but one can certainly be concise without being coherent. Don't use your time at the mic to walk through ideas and *form* your question. Instead, have a clear goal from the outset. 
+- Inclusive: Also closely tied with coherence. Your question is for the speaker, of course, but for the rest of the audience too. Who else is in the audience? Is everyone of the same level of expertise? Certainly not. Does that mean you should 'dumb down' your question? No, but endeavor to frame your question in a way that is approachable for all potential members of the audience. How could you frame a question so that an undergrad or a new grad student can appreciate your line of reasoning?
+- Respectful: This is less a quality of the question and more over a quality of the questioner's attitude. I think if you are keeping the qualities *concise*, *coherent*, and *inclusive* in mind then you are already sitting more in the *respectful* camp. And the idea of being respectful in all contexts is certainly one to aspire to, so maybe this all goes without saying; nevertheless, I think it's worth mentioning again.
+
+I think that there are potentially other qualities of a good question that we could aspire to, but not necessarily always achieve. Some of these qualities speak directly to the types of questions you can ask yourself when you are formulating questions, which we'll talk about in a minute. These could include qualities like:
+- Surprise: Is there an unexpected but meaningful connection to be drawn from the talk and other research areas?
+- Stimulation: Can you ask a question in such a way that it might inspire further lines of inquiry? This is obviously difficult to achieve, but in retrospect it can certainly be the mark of a good question.
+- Support: Research dissemination is intended as a dialogue. Can you demonstrate support for the researcher through a related research program you are a part of? 
+
+## Strategies
+I'll preface this by saying these are not science-backed recommendations. Most of these come from either expeirence, or from common wisdom. So many will likely be familiar to you already anyway.
+- Intentional listening: We've all drifted off during talks and lectures, so we know that doing so can be damaging to one's understanding of the content of the talk. It can be difficult to maintain focus, especially throughout longer talks, but there are some things that you can do:
+    - Reduce distractions: Turn off your phone; keep your laptop stored away (unless you are using it for notes, but then make sure you limit the chance of notifications, etc.)
+    - Maintain eye contact: Focusing on the speaker (or their slides) will help to keep your attention centred on the talk content.
+    - Maintain good posture: Slumping restricts airflow, and increases the chances that you'll drift off. Maintaining an engaged posture increases the chances of maintaining focus.
+- Keeping notes: Ideally use a note-taking modality that keeps distractions low (i.e., a pen/pencil and paper). Here are some general recommendations:
+    - Write down (or paraphrase) statements that attract your attention. Don't try to write down everything.
+    - Think of your notes as a short term memory prompt - they only need to persist as long as the end of the talk. In that sense, they need not be pristine. So don't waste time (or focus) on editing.
+    - Write down questions as they come to you - even banal questions - they might spark another idea. It's helpful if questions are written in the context of a motivating statement from the talk.
+    - Make sure you note when your questions are answered at later stages of the talk.
+- Formulating questions: Good questions don't always stem directly from the content of a talk. If the speaker is following advice similar to what has been offered in this class they may leave some opportunities for the 'easy' questions - this is a good opportunity to open the dialogue. In other cases, however, you might have to work to identify a good question. I find the most productive way to do so is to review the notes I've taken and to ask myself the following questions:
+    - What didn't I understand? What could use more clarification? (no one wants to appear dumb...)
+    - How would I approach this problem? What strategies would I use to achieve a similar result? (assumes deep familiarity...)
+    - How do these results relate to my own research, or problems that I am facing? (tread carefully...)
+    - What benefits can you imagine for these results beyond those stated in the talk?
+    
+***
+[Back to top](#overview)
+
+<a id="paper-review"></a>
+
+# [Paper review: Constructive Mathematics and Computer Programming](https://www.sciencedirect.com/science/article/abs/pii/S0049237X09701892) - Per Martin-Lof [7]
+
+## Overall merit
+4. Accept
+
+## Reviewer expertise
+* Y. I am knowledgeable on this topic
+
+## Brief summary of the paper
+
+
+## Contributions of the paper
+* A new logical system: Intuitionistic type theory
+* A demonstration of the natural connection between the constructive approach to mathematics and computer programming
+* A demonstration of a constructive proof, and in particular the inhabitness of the axiom of choice
+
+## What are the strengths of the paper?
+* A convincing argument of significance
+* A concise demonstration of the novelty of the work (judgements, inference rules, and the construction of the axiom of choice)
+* Articulate and convincing prose 
+
+## What are the weaknesses of the paper?
+* Typesetting in some sections favour brevity over clarity
+* A lack of support for inference rule derivations
+
+## Significance
+Martin-Lof has clearly positioned this paper as significant with respect to other major developments in the field by referencing important work by Dijkstra, Hoare, and Brouwer, among others. Martin-Lof is clearly responding to significant discussions in the field at the time, specifically the divide between classical and constructivist approaches to mathematics and logic, and to the increasing relevance of computer programming as a tool of scientific inquiry.
+
+Martin-Lof makes a clear statement of significance at the end of page 503 when he discusses his project for intutionistic type theory - a new formal system within constructive mathematics that attempts to close the gap between the constructive approach and the pratice of programming.
+
+In particular, Martin-Lof makes the claim that in his type theory the axiom of choice doesn't limit the development of rigorous mathematical proof in the way that might be expected - and furthermore provides a construction of the axiom of choice. Rather, Martin-Lof points to the law of the excluded middle as being the most critical concern for the formalization of reasoning in intuitionistic type theory.
+    
+## Soundness
+The bulk of the paper is concerend with the rules of inference for the typing judgements that Martin-Lof has developed for intutionistic type theory. These are sound, and Martin-Lof demonstrates this through the construction of a representation of the axiom of choice via his inference rules.
+
+There is some work left to the reader, in that Martin-Lof does not clearly demonstrate the derivation of the rules of inference (see below), but he argues this this paper "is not the place for such detailed explanations". 
+
+## Novelty
+As mentioned above, Martin-Lof is successful in grounding his work in the contemporary conversation relating to formal logics. The paper is successful in demonstrating novelty in terms of the demonstration of the inference rules of intuitionistic type theory. Certainly there would be an audience for this paper. 
+
+## Verifiability & transparency
+There is a certain degree to which this paper is clearly a product of its time and of the ongoing contemporary conversation around formal logic. Retrospectively, it is hard to understand at what stage of the development of formal logic Martin-Lof's paper appeared (from an absolute sense, it is easy to understand; but from a relative sense - i.e. concerning what knowledge a contemporary of Martin-Lof's might have - it is much more difficult to comprehend where Martin-Lof fits). That said, for anyone well-versed in the topic at the time I think there is enough here to go on. 
+
+However, the lack of clear derivation of inference rules (as referenced above) might be a limiting factor of the paper. Certainly, it's not a very inclusive approach; although the process of deriving inference rules is likely familiar to many readers, there may be those who lack the necessary background. 
+
+## Presentation
+The paper itself is a pleasure to read; I very much enjoyed Martin-Lof's prose. I've had similar experiences reading other older papers and texts (i.e. by Dijkstra and others) and do wish that more papers were written with the same kind of appreciation for language today.
+
+The organization of the paper is excellent. There is a clear lead in to the key points and a deeper exploration of the key results. Although there is a long section of simply inference rules throughout, the paper is easy to navigate and to predict.
+
+The only concern I have is with the section that describes the four main judgements, both assumption-free and with assumptions. I found that following the argumentation in this section (encompassing pages 508 through 510) was particularly challenging. This is perhaps also an issue in the inference rules section. Perhaps better typesetting could solve this issue.
+
+## Questions for the author
+
+
+***
+[Back to top](#overview)
+
 <a id="references"></a>
 
 # References
@@ -342,6 +636,9 @@ I've only done this for one set of lectures, but at this point, I think I'm a co
 [5] Simon Clews. 2013. Making the Most of Your Three Minutes. 3MT: The Three Minute Thesis. Retrieved January 27, 2022 from https://wp.auburn.edu/graduate_school/wp-content/uploads/files/3MT/Simon_Clews_3MT_guide.pdf
 
 [6] Navid Alamati et al. 2019. Minicrypt Primitives with Algebraic Structure and Applications. In *Annual International Conference on the Theory and Applications of Cryptographic Techniques* 2019 May 19 (pp. 55-82). Springer, Cham. https://ia.cr/2019/108
+
+[7] Martin-Lof, Per. 1984. Constructive mathematics and computer programming. In *Philosophical Transactions of the Royal Society of London. Series A, Mathematical and Physical Sciences 312, no. 1522* (pp. 501-518). https://doi.org/10.1098/rsta.1984.0073
+
 ***
 
 [Back to top](#overview)
