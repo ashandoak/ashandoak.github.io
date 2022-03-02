@@ -27,7 +27,7 @@ This document is a record of my learning journey in *CSC 595 Research Methods* w
 
 ## Lecture 1 (Jan. 10, 2022)
 
-__Class notes:__ I liked that Dr. Muller has asked everyone to speak in the class - I think this is an important hurdle to get over and helps to encourge more consistent contributions in future classes. I elected not to speak in the first class, primarily because I'm not really sure what my story is at this point. The parameters around my research project has only really started to become well-formulated in the last month or so, but the specifics of what my role is lack a clear motivation - other that that I need to complete some particular tasks in order to support those over-arching parameters. 
+__Class notes:__ I liked that Dr. Muller has asked everyone to speak in the class - I think this is an important hurdle to get over and helps to encourage more consistent contributions in future classes. I elected not to speak in the first class, primarily because I'm not really sure what my story is at this point. The parameters around my research project has only really started to become well-formulated in the last month or so, but the specifics of what my role is lack a clear motivation - other that that I need to complete some particular tasks in order to support those over-arching parameters. 
 
 There were plenty of people who stated that their projects were not fully identified yet, and I don't really mind saying this, but I would rather give it a bit more serious thought - knowing that I can make an attempt in lecture 2. I did notice in listening to the other pitches that the most interesting were those that had some clear connection to broader issues or research disciplines, or bigger humanist concepts. This is something that I think I lack.
 
@@ -37,9 +37,9 @@ __General reflection:__ I can't say that I was entirely sure what to expect from
 
 My own interest in literate programming began about four years ago as I was revamping some dated curriculum that was part of the program I teach at [North Island College](https://www.nic.bc.ca/programs/business-applied-studies/digital-design-development/). I had come across the term while studying scholarship of teaching and learning papers from [ACM SIGCSE](https://www.sigcse.org/) and it struck me as an excellent pedagogical tool that could be brought to bear in my classrooms: my students typically have broad ranging backgrounds and levels of proficiency and many are coming to programming for the first time, or after a lengthy career in another field and so literate programming seemed to me to be an excellent tool for the communication of programming concepts embedded in the very object they're using in practice.
 
-Unfortunately, our programs at that time focused primarily on web technologies in the first year of instruction, and I stuggled to find an appropriate fit with JavaScript that didn't require that the students be forced to adopt a new interface. I was able to implement something in this vein using [Swift Playgrounds](https://www.apple.com/swift/playgrounds/) for my second year students studying Swift, but the first year students were left without. I haven't lost interest, however, and would like to incorporate something like this into my newer Kotlin and Android Studio based courses. 
+Unfortunately, our programs at that time focused primarily on web technologies in the first year of instruction, and I struggled to find an appropriate fit with JavaScript that didn't require that the students be forced to adopt a new interface. I was able to implement something in this vein using [Swift Playgrounds](https://www.apple.com/swift/playgrounds/) for my second year students studying Swift, but the first year students were left without. I haven't lost interest, however, and would like to incorporate something like this into my newer Kotlin and Android Studio based courses. 
 
-Fast forward to fall 2020 as I was beginning my MSc studies at UVic: The funding I have received for tuition costs has been provided as part of my professional development fund at North Island College, and part of my committment to justifying this funding has been to record my learning journey in the form of a Jupyter Notebook. So I'm happy to be continuing this activity in a more official capacity in CSC595, where I'm finding myself at the intersection between literate programming and my own learning journey.
+Fast forward to fall 2020 as I was beginning my MSc studies at UVic: The funding I have received for tuition costs has been provided as part of my professional development fund at North Island College, and part of my commitment to justifying this funding has been to record my learning journey in the form of a Jupyter Notebook. So I'm happy to be continuing this activity in a more official capacity in CSC595, where I'm finding myself at the intersection between literate programming and my own learning journey.
 
 ## Lecture 2 (Jan. 13, 2022)
 
@@ -88,7 +88,7 @@ Perhaps there is something to be said for having a stock set of stories that cou
 
 I think the question of nervousness is an interesting one. I've been teaching full-time since 2014, on average probably eight courses per year, so somewhere around 60 or 70 courses over the last eight or so years. I'd say that on average the level of nervousness that I feel prior to a class has lessened significantly over the years, but I think to some degree it is still sometimes there - especially prior to a first class in the semester when I'm meeting new students for the first time. It's not the type of thing that typically lasts, though, and I would say that I have an overall different outlook on the subject of nervousness, compared to Winston's position on it.
 
-In refernce to the formula above: I think the times that I have been *most* nervous have been those times when my *K* value has been too small. Especially in my early days of teaching, when I was working primarily as a sessional, I was willing to take any courses that were offered to me, even if they were pretty far outside my area of expertise. But I think my *p* value, in those cases, often made up for it. Of course, one might also argue that now that I am more established and teach fewer courses outside of my wheelhouse that a reduced nervousness is to be expected. Correlation, or causation?
+In reference to the formula above: I think the times that I have been *most* nervous have been those times when my *K* value has been too small. Especially in my early days of teaching, when I was working primarily as a sessional, I was willing to take any courses that were offered to me, even if they were pretty far outside my area of expertise. But I think my *p* value, in those cases, often made up for it. Of course, one might also argue that now that I am more established and teach fewer courses outside of my wheelhouse that a reduced nervousness is to be expected. Correlation, or causation?
 
 That said, there must be an 'upper bound' on *K*, at least in the context of *p* and *t*. A large *K* cannot completely compensate for a completely negligible *t*. And I think there is a lot to be said about *types* of knowledge that might overlap with elements of *t*. In particular, I think that while Winston is absolutely right in what he presents in terms of *how to speak* in front of a class, and these types of lectures certainly have their place in the education system, there is increasing interest today in alternative pedagogical strategies that compliment lecture. Speaking certainly has it's place there, but do all of Winston's tools? 
 
@@ -122,7 +122,7 @@ __General reflection:__ Although I've worked in industry previously, and have ma
 
 It's funny that I haven't thought to do this, since I do follow some *publications* that in some ways serve the same purpose, though that are typically more general audience focused. [Quanta Magazine](https://www.quantamagazine.org/) is by far one of my most favourite things, and I think everyone in CS and Math (and other sciences too, of course) should pay attention to it; it's mandate of producing general audience content about recent and important scientific results is really quite admirable - especially since they do it so well! There should be more of this type of content available broadly.
 
-(Or maybe I haven't thought of following researchers directly since any time I've tried before I've had a hard time getting over the inital difficulty of reading content within a field that I don't have a lot of experience in. Now that I've been working on this MSc (part-time) for more than a year, I feel like I have a better basis from which to attack this idea.)
+(Or maybe I haven't thought of following researchers directly since any time I've tried before I've had a hard time getting over the initial difficulty of reading content within a field that I don't have a lot of experience in. Now that I've been working on this MSc (part-time) for more than a year, I feel like I have a better basis from which to attack this idea.)
 
 Conferences are another good thing to think about: Bruce and I have discussed off and on, but haven't identified quite the right one at this point. I'd like to go to a formal verification, or a Lean-specific conference / workshop. I expect there might be one at some point this year... Funny story: The last face-to-face conference that I was at was the SIGCSE conference in Portland in March 2019. Can you imagine how that ended? :)  I arrived just as things were getting really bad in Oregon, attended one workshop the night of my arrival, and by the next morning the organizers had completely canceled the conference. I scrambled back to the airport and managed to catch and early flight home that day (though it had some long lay-overs). I was gone less than 36 hours, but because I crossed the boarder, for my trouble I got to stay home in self-isolation for two weeks...
 
@@ -136,7 +136,7 @@ __Class notes:__ I wrote down the following points during class today. I think m
 - Reference aids: Use Mendelay or BibTek - why not Zotero?
 - I asked about journal and conference supports for reviewers and Dr. Muller stated that choosing the right editor-in-chief or conference chair is incredibly important so that they can provide constructive feedback to reviewers.
   
-__General reflection:__  In terms of those alleged negative reviews who review only to tear down others' work: what I wonder is why that culture of "trashing papers" even exists. I guess there will always be people who want to take others down, but I wonder if there is something inherent to the culture that results in this type of behaviour? If editors and chairs are empowered to provide constructive criticis, then that should curtail some of this, but I guess there are instances where things slip under the radar for a variety of reasons. 
+__General reflection:__  In terms of those alleged negative reviews who review only to tear down others' work: what I wonder is why that culture of "trashing papers" even exists. I guess there will always be people who want to take others down, but I wonder if there is something inherent to the culture that results in this type of behaviour? If editors and chairs are empowered to provide constructive criticism, then that should curtail some of this, but I guess there are instances where things slip under the radar for a variety of reasons. 
 
 This is difficult to articulate because I'm not *inside* at the moment - I'm looking from the outside based on what I've heard from others who have been part of peer review. Maybe the problem isn't as bad as I assume it is, or that it appears to be from reports, but it certainly does seem prevalent in many disciplines. Taking a step back then, the question i: if checks and balances do exist (i.e. empowered editors), why is it that there always seems to be this undercurrent of the failures of peer review? Are we making a bigger deal of it than it is - because it's *not* perfect? Are we expecting too much? Do we - as a culture - for some reason feel the need to apologize for the peer review process? Is this due to the well-publicized failures of the review process in recent years where bogus papers have been accepted, and bad science has had major societal influences (e.g. the anti-vaxx movement). Are the complaints we have about peer review actually sound, or do scientists complain because it seems like the right thing to do? are we a culture of apologists? O.o
 
@@ -163,7 +163,7 @@ Thoughts on my pitch:
 * I think my pace was good, and I think the Alice and Bob thing worked.
 * I was actually nervous - not until I was standing at the podium, but I felt some nerves. This surprised me, as I spend a lot of time in classrooms in front of students (see my discussion of nervousness above), and this was a fairly safe space! I put it down to this being one of the few times in recent years that I have presented as a student in front of students - and I want everyone to like me! :)  
 
-__General reflection:__ I've been thinking a bit about questions: There was lots of opportunity to ask questions during the pitch presentations, and they were all quite good, I think. At research talks, however, it's not atypical to have those meandering type of questions that are often thought of as posturinng. In, I think, Simon Peyton-Jones' talk he addressed the idea of the "agressive" question and how to handle it during a talk, but I'm thinking about this from the other perspective: How to *ask* a good question.
+__General reflection:__ I've been thinking a bit about questions: There was lots of opportunity to ask questions during the pitch presentations, and they were all quite good, I think. At research talks, however, it's not atypical to have those meandering type of questions that are often thought of as posturing. In, I think, Simon Peyton-Jones' talk he addressed the idea of the "aggressive" question and how to handle it during a talk, but I'm thinking about this from the other perspective: How to *ask* a good question.
 
 The reason being that I think some of those rambling questions might less often be aggressive posturing, and perhaps more often a symptom of uncertainty. I think there is perhaps value in discussing the *right* way to ask a question.
 
@@ -198,7 +198,7 @@ __Class notes:__
     
 __General reflections:__ I enjoyed this talk - lots of good advice and reminders on how best to approach and organize one's work. I found the two slides linked to above to be the most interesting and valuable now, and potentially into the future (not that the 'managing your time' and 'managing your supervisor' bit wasn't valuable - there was lots there to consider, but I'm less concerned with my personal time management at the moment). As mentioned above, I think that I'm most interested in better understanding my place within my discipline - and understanding what my discipline is. 
 
-For some context: I've been spending a lot of time learning about the Lean programming language, but most of that time has not been geared too directly toward the cryptographic applications that I'm moving toward now. Most of the Lean user base are mathematicians looking to improve the mathlib library, and most of them are unintersted in formal logic and the underlying type theory of Lean. I find this quite interesting, and would like to learn more, but I feel like I've only so far been exposed to just a small slice of that discipline.
+For some context: I've been spending a lot of time learning about the Lean programming language, but most of that time has not been geared too directly toward the cryptographic applications that I'm moving toward now. Most of the Lean user base are mathematicians looking to improve the mathlib library, and most of them are uninterested in formal logic and the underlying type theory of Lean. I find this quite interesting, and would like to learn more, but I feel like I've only so far been exposed to just a small slice of that discipline.
 
 ## Lecture 12 (Feb. 17, 2022)
 __Class notes:__
@@ -227,7 +227,7 @@ I took the following notes during research pitches. Notes were intended to consi
     - Example: Scheduling system since the scheduling problem is difficult, or routing 
 - Quantum computing
     - Designing ML algorithms for qubits
-    - Encoding classial data as quantum data
+    - Encoding classical data as quantum data
     - Question: How do you know your algorithms ar right? Based on running time and results.
 - Quantum walks
     - Search algorithm on structured data set
@@ -245,17 +245,17 @@ __Process for paper review:__
 2. Summarize paper - especially point out contributions. This is valuable to the reviewers understanding, and demonstrates to the author that their work was understood (or not understood).
 3. Strengths and weaknesses - separate and itemize for clarity
 4. Comments to authors (many of the following criteria are typically defined in the CfP, so there is often some measure for reviewers. Not all of these need to be represented in terms of strengths and weaknesses):
-    - Significance: It is the author's responsibilty to determine significance, but it should be clear to the reviewer
+    - Significance: It is the author's responsibility to determine significance, but it should be clear to the reviewer
     - Soundness: Paper must answer the questions it poses with rigor. Probably the most difficult to asses.
     - Novelty: The most subjective?
     - Verifiability and transparency: The source of data and methodology of experiments should be clear to the reviewer. The data should also clearly apply to the research question. This is probably the second hardest criteria to asses.
     - Presentation: Adherence to ACM or IEEE formatting standards (as defined in CfP) is critical.
-5. Questions for authors to respond to - constructure and encouraging questions are best.
+5. Questions for authors to respond to - constructive and encouraging questions are best.
 
 __General notes:__
 I felt pretty good about some of the questions I came up with, but I didn't get to ask many of then - was a bit too difficult on Zoom. Nevertheless, I think the process I took above generate some good ideas. I didn't note speaker names because that felt a bit too challenging with speed of speech and accents, etc.
 
-The process listed for the paper review will, I think, be fairly challenging. The list of five criteria (significance, soundness, etc.) seem to overlap in some cases, but perhaps that's just my perspective as a novice, or just my impression on first examination. Maybe a rubric would help? Perhaps too perscriptive?
+The process listed for the paper review will, I think, be fairly challenging. The list of five criteria (significance, soundness, etc.) seem to overlap in some cases, but perhaps that's just my perspective as a novice, or just my impression on first examination. Maybe a rubric would help? Perhaps too prescriptive?
 
 ## Lecture 13 (Feb. 28, 2022)
 __Class notes:__
@@ -264,9 +264,9 @@ Slides for this class come from [Writing a thesis or dissertation](www.scribbr.c
 - PhD thesis: minimum 200 pages, typically more.
 - A thesis is typically original research, although for a masters degree it may be a summary of knowledge rather than adding to new knowledge.
 - Thesis format is determined by the institution, and typically the library (since that is where it will be catalogued). UVic sets out a specific set of [guidelines to follow](www.uvic.ca/students/graduate/thesis-dissertation/index.php).
-- Methodology is critical - it is necessary to use a recognizeable and respected methodology. 
+- Methodology is critical - it is necessary to use a recognizable and respected methodology. 
 - Discussion is a key component of the thesis that demonstrates the value of the thesis
-- Conlusion (arguably the most important chapter) is composed of:
+- Conclusion (arguably the most important chapter) is composed of:
     - Summary
     - Articulate whether research questions posed in chapter 1 have been answered (usually you do answer them, since questions can be modified and further specified as research progresses)
     - Articulate the contributions - this can be in a particular context, or very abstract. Typically these are actually listed in bullet point form.
@@ -282,13 +282,13 @@ Slides for this class come from [Writing a thesis or dissertation](www.scribbr.c
     - The abstract is *not* an introduction
 - What's the difference between *contribution* and *significance*:
     - Contribution: the things that you have done that are novel, that support a research community, or that in general help to advance a particular field, group of people, or even a software system. Contribution is related to novelty. Contributions tend to be generic - they don't necessarily answer research questions directly, but may speak to a *group* of related questions.
-    - Significance: is about the importance of the result at the time of publishing. Not everyone has to publish at the highest level of signifiance - but everyone should demonstrate a learning progression. Significance is measured in the context of other research and potentially demonstrates a benefit to society. 
-- A glossary is a useful tool (at the beginning of the thesis) to help the audience better understand the upcoiming content of the thesis. Start the glossary from the first day of writing.
+    - Significance: is about the importance of the result at the time of publishing. Not everyone has to publish at the highest level of significance - but everyone should demonstrate a learning progression. Significance is measured in the context of other research and potentially demonstrates a benefit to society. 
+- A glossary is a useful tool (at the beginning of the thesis) to help the audience better understand the upcoming content of the thesis. Start the glossary from the first day of writing.
 - It's good practice to write the introduction early, as this will change dramatically over the course of research. To modify an introduction is easier than to write from scratch... An introduction should include:
     - Establish research topic
     - Problem statement - just state where you currently are
     - Motivation and background - perhaps this will change if your research target changes
-    - Definte the scope of research - if you define the scope you don't have to say "this is outside of the scope of my research..."
+    - Define the scope of research - if you define the scope you don't have to say "this is outside of the scope of my research..."
     - Show the work's significance, relevance, impact - somewhat interchangeable. Thinking through this helps bound and direct your research.
     - State research questions and objectives - this is hard. It depends heavily on evaluation.
     - State expected contributions - should appear in abstract, introduction and conclusions. 
@@ -312,7 +312,7 @@ The cryptographic primitives presented in [6] depend on a proof of the left-over
 #### Motivation and background 
 Proof assistants and formal verification tools are becoming more prevalent in research mathematics. Cryptographic researchers have also increasingly been using formal verification tools (e.g. EasyCrypt, and various libraries of Coq). This is a developing field that has potential significance and societal benefit.
 
-#### Definte the scope of research
+#### Define the scope of research
 - Lean proof assistant and programming language
 - Monadic programming
 - Dependent type theory (not really, but I find it interesting, and understanding it helps me understand Lean)
@@ -391,11 +391,11 @@ Some of these are replicated in the notes above, but these are moments that stoo
 ## Developing my research pitch
 
 ### Why the research must be done
-This is a difficult one for me to fully qualify. My research projet is a small part of a larger effort within cryptography, but I have very little familiarity with cryptography. That said, my novice understanding could be something of a benefit here - I can provide some context, but don't have the vocabularly to even approach being overwhelming. 
+This is a difficult one for me to fully qualify. My research project is a small part of a larger effort within cryptography, but I have very little familiarity with cryptography. That said, my novice understanding could be something of a benefit here - I can provide some context, but don't have the vocabulary to even approach being overwhelming. 
 
-From what I understand (and with reference to [6]), the overarching goal of the research is to identify structural properties of cryptographic primitives as they relate to typical cryptographic assumptions. The typical approach of building complex primitives from assumptions is in some senses limited; the research in [6] demonstrates that another way of demonstrating the "feasibility" of primitive consruction is possible. This in turn opens up new questions relating to simpler constructions of important primitives, or relating to the development of new assumptions or primitives. 
+From what I understand (and with reference to [6]), the overarching goal of the research is to identify structural properties of cryptographic primitives as they relate to typical cryptographic assumptions. The typical approach of building complex primitives from assumptions is in some senses limited; the research in [6] demonstrates that another way of demonstrating the "feasibility" of primitive construction is possible. This in turn opens up new questions relating to simpler constructions of important primitives, or relating to the development of new assumptions or primitives. 
 
-My part in this is in the development of proof assistant (i.e. [Lean](https://leanprover-community.github.io/)) tactics to prove the security of the constructions posed in [6]. As a relatively new, but highly popular proof assistant, Lean represents a new frontier in the development of formal verifcation tools. Additionaly, it has perhaps   less baggage than [Coq](https://coq.inria.fr/), which historically has been the proof assistant of choice in any cryptographic applications. In that sense the work I do will be relatively novel, and we hope that the work will continue to have broad application in providing demonstrable security for newly developed cryptographics primitives. 
+My part in this is in the development of proof assistant (i.e. [Lean](https://leanprover-community.github.io/)) tactics to prove the security of the constructions posed in [6]. As a relatively new, but highly popular proof assistant, Lean represents a new frontier in the development of formal verification tools. Additionally, it has perhaps   less baggage than [Coq](https://coq.inria.fr/), which historically has been the proof assistant of choice in any cryptographic applications. In that sense the work I do will be relatively novel, and we hope that the work will continue to have broad application in providing demonstrable security for newly developed cryptographic primitives. 
 
 ### Pitch structure
 
@@ -420,9 +420,9 @@ My part in this is in the development of proof assistant (i.e. [Lean](https://le
 ### Complete script
 Hi, my name is Ashley and I am a master's student in the department of computer science. You might have heard of Alice and Bob; they've been trading secret messages back and forth as part of cryptographic research since 1978. Over those years Alice and Bob managed to continually improve their methods and keep their communication secure, despite major advances in computational power.
 
-But the cryptographic tools Alice and Bob use *are* fallible - sometimes surprisingly so. Recent cryptograhpic research has demonstrated that it is possible to build new cryptographic tools from unexpected sources; but the proof that these techniques are secure - in a cryptographic sense - is a challenge best handled by formal verification.
+But the cryptographic tools Alice and Bob use *are* fallible - sometimes surprisingly so. Recent cryptographic research has demonstrated that it is possible to build new cryptographic tools from unexpected sources; but the proof that these techniques are secure - in a cryptographic sense - is a challenge best handled by formal verification.
 
-In my research project I use the Lean programming language to demonstrate the security of these cryptographic techniques. Embeded in Lean is a trusted kernel that can be relied upon in the development of rigorous mathematical proof. These proofs are rigorous because Lean's trusted kernel is sound, implying the validity of all logic and proof that stem from the kernel. My research also helps to push the boundaries of interactive proof systems and to advance the broader project of proof automation in mathematics.
+In my research project I use the Lean programming language to demonstrate the security of these cryptographic techniques. Embedded in Lean is a trusted kernel that can be relied upon in the development of rigorous mathematical proof. These proofs are rigorous because Lean's trusted kernel is sound, implying the validity of all logic and proof that stem from the kernel. My research also helps to push the boundaries of interactive proof systems and to advance the broader project of proof automation in mathematics.
 
 To find out more about my work, please visit my GitHub page at ashandoak.github.io
 
@@ -450,10 +450,10 @@ __In summary:__ Jones presents best practices for developing, preparing for, and
 - Giving a talk is about communicating a single idea (an "intuitive feel for your idea")
 - Remember that your audience has given you a precious gift: their time, since we only have a fixed amount of time each day
 - You have two minutes to pose an *example* and demonstrate how to solve it to motivate and attract your audience. Examples are key to learning: We often learn from specific to general, but we are sometimes tempted to go from the general to the specific (see discussion about motivating examples above)
-- "Ruthelessly prune" material from the talk to ensure you can deliver the *key idea*. Your talk should only provide the *motivation* and the *key idea*. Don't focus on the technical details, but rather the *insight* that that detail provided.
+- "Ruthlessly prune" material from the talk to ensure you can deliver the *key idea*. Your talk should only provide the *motivation* and the *key idea*. Don't focus on the technical details, but rather the *insight* that that detail provided.
 - Avoid shallow overviews - it's ok to cover only *part* of the paper.
 - Outlines are ok if used for signposting during the talk, but don't spend time on it (or *briefly* after the motivation).
-- Repetition: Don't repat, because 20 minutes is too short, but perhaps repeat through additional examples when necessary. 
+- Repetition: Don't repeat, because 20 minutes is too short, but perhaps repeat through additional examples when necessary. 
 - Deal with antagonistic questions or technical questions with a constructive approach: "Great, but I just want to get to these key ideas..." 
 
 ## [Creating effective slides: Design, Construction, and Use in Science](https://www.youtube.com/watch?v=meBXuTIPJQk) - Jean-luc Dumount
@@ -465,7 +465,7 @@ __In summary:__ Dumount presents compelling arguments for the use of slides from
     - Be written for the speaker (i.e. speaking notes)
     - Replace a report (i.e. slides rather than a written report - more common in business)
     - Be written in a hurry (shows disrespect for the audience)
-- Strongest reccommendation in slide construction: State the *so what* not the *what* and write it as a full sentence in the title area with a good line break.
+- Strongest recommendation in slide construction: State the *so what* not the *what* and write it as a full sentence in the title area with a good line break.
     - Start from a message. Ask: What am I trying to tell people?
 - Speaking transitions between slides is a critical way to maintain cohesion through the talk. You must be able to deliver your talk *without* the slides. 
 
@@ -500,11 +500,11 @@ __In summary:__ In this highly practical talk McConnel presents a number of best
 
 ## Reflections on talks by Winston, Simon, Dumount and McConnell on research talks
 
-Unquestionably, the common thread through all of these resources are the concepts of intuition, story, and humanist appeal. When it comes especially to shorter modes, such as the elevator pitch and the 20-minute research talk, the important of providing some meaningful intuition that can communicate your key ideas to the audience is critical. Good stories (or analogies, as with the traffic stop / brain activity 3MT talk above) can help cement these intutions into longer-term memory, while appealing to humanist ideals helps to ground intuition in meaning real-world concerns.
+Unquestionably, the common thread through all of these resources are the concepts of intuition, story, and humanist appeal. When it comes especially to shorter modes, such as the elevator pitch and the 20-minute research talk, the important of providing some meaningful intuition that can communicate your key ideas to the audience is critical. Good stories (or analogies, as with the traffic stop / brain activity 3MT talk above) can help cement these institutions into longer-term memory, while appealing to humanist ideals helps to ground intuition in meaning real-world concerns.
 
-From a practical talk / slide construction perspective I'm also pretty enamoured of *effective redundnacy* and *relentless pruning*. I think the idea of effective redundancy speaks a bit to the question I tried to ask about "slides as props" during the second Winston class. I don't think I clearly articulated what I was feeling, but there were something about the distinction between *slides as communication tools* and *slides as performance* that was sort of tickling my brain... I'm still not sure there is really anything there, but the idea that slides exist as a tool of [universal design for learning](https://udlguidelines.cast.org/) feels right, whereas the idea of slides as a tool for motivation (as a more traditional *slideshow* might be) seems appealing, but less is clearly less accessible. I think, fundamentally, I dislike slides as they are typically conceived and I struggle to find value in them (from a teaching perspective) when I know that students often expect them.
+From a practical talk / slide construction perspective I'm also pretty enamoured of *effective redundancy* and *relentless pruning*. I think the idea of effective redundancy speaks a bit to the question I tried to ask about "slides as props" during the second Winston class. I don't think I clearly articulated what I was feeling, but there were something about the distinction between *slides as communication tools* and *slides as performance* that was sort of tickling my brain... I'm still not sure there is really anything there, but the idea that slides exist as a tool of [universal design for learning](https://udlguidelines.cast.org/) feels right, whereas the idea of slides as a tool for motivation (as a more traditional *slideshow* might be) seems appealing, but less is clearly less accessible. I think, fundamentally, I dislike slides as they are typically conceived and I struggle to find value in them (from a teaching perspective) when I know that students often expect them.
 
-I *wish* I had time for relentless pruning... But, as the Mark Twain quote above states, it's not always easy to write a short letter. I guess when it comes to a really high stakes talk, I would almost certainly spend the time, but in terms of lectures I'm often constructing slides days, or at best a week before their use, and I just don't have the time, along with my other responsibilies.
+I *wish* I had time for relentless pruning... But, as the Mark Twain quote above states, it's not always easy to write a short letter. I guess when it comes to a really high stakes talk, I would almost certainly spend the time, but in terms of lectures I'm often constructing slides days, or at best a week before their use, and I just don't have the time, along with my other responsibilities.
 
 Interestingly, I thought that the talk by Susan McConnell, about slide best practices, would be the least valuable of the three. However, the day after I watched it I needed to make some slides for a class I'm teaching and her advice was on my mind. I decided to lay out the slides by first writing out a bulleted list with sub-bullets that covered the content I wanted to get to. Each bullet was a full sentence and would eventually become the slide heading/title, and each sub-bullet became a bulleted point on the slide (though some slides were just pictures).
 
@@ -520,14 +520,14 @@ I've only done this for one set of lectures, but at this point, I think I'm a co
 # Proposed Talk: How to pose good questions at a research talk
 
 ## Motivation
-After our in-class reseach elevator pitch presentations I was reflecting on the process of asking good questions of a researcher during a research talk. I believe that asking questions is an important step in the learning process: As an instructional faculty member of a teaching college I try to push my students to ask questions as often as possible because I think that asking questions, even simple simple questions, helps to establish concrete foundations for learning. Opening a dialogue can be the first step to a metacognitive approach to learning. 
+After our in-class research elevator pitch presentations I was reflecting on the process of asking good questions of a researcher during a research talk. I believe that asking questions is an important step in the learning process: As an instructional faculty member of a teaching college I try to push my students to ask questions as often as possible because I think that asking questions, even simple simple questions, helps to establish concrete foundations for learning. Opening a dialogue can be the first step to a meta-cognitive approach to learning. 
 
 There are many good questions asked at research talks, but there are also many bad questions (e.g., aggressive, posturing or rambling questions). Those aggressive and posturing types of questions are, I think, outside of the scope of what we want to accomplish here (but maybe not? Can an aggressive question be a good question?); I'm most interested in identifying what makes a *good* question, maybe in order to avoid the rambling style of question that sometimes manifests at research talks.
 
-I suppose in particular, since we've talked a lot about presentation skills it seeemed to me that there was a gap in not looking at the other side of a talk or lecture. Answering questions is something that was addressed in some of the videos we watch (see [Simon Peyton Jones' response to aggressive questions](https://www.youtube.com/watch?v=sT_-owjKIbA&t=2819s), for example), but research is meant to be a *dialog*, and asking good questions is clearly a key part of that process.
+I suppose in particular, since we've talked a lot about presentation skills it seemed to me that there was a gap in not looking at the other side of a talk or lecture. Answering questions is something that was addressed in some of the videos we watch (see [Simon Peyton Jones' response to aggressive questions](https://www.youtube.com/watch?v=sT_-owjKIbA&t=2819s), for example), but research is meant to be a *dialog*, and asking good questions is clearly a key part of that process.
 
 ## The purpose of this talk
-My goal here is for this talk to act as a starting point for an open discussion on how to formulate good questions. What I propose here isn't meant to be perscriptive, and I'm not claiming to have all the answers. My recommendations provided here stem from what has worked for me (as a 'questioner') and what I hope will be true of those who would ask me questions if I was the one giving a talk. You may agree with some things I say, you may vehemently disagree with some things I say - I would be happy to hear both perspectives since I think the way forward is through open dialogue. I certainly hope that this is useful as well, though I wouldn't be surprised to learn that many of you already have your own process for asking good questions; nevertheless, if this sparks some dialogue on the topic I hope that we can all stand to learn something.
+My goal here is for this talk to act as a starting point for an open discussion on how to formulate good questions. What I propose here isn't meant to be prescriptive, and I'm not claiming to have all the answers. My recommendations provided here stem from what has worked for me (as a 'questioner') and what I hope will be true of those who would ask me questions if I was the one giving a talk. You may agree with some things I say, you may vehemently disagree with some things I say - I would be happy to hear both perspectives since I think the way forward is through open dialogue. I certainly hope that this is useful as well, though I wouldn't be surprised to learn that many of you already have your own process for asking good questions; nevertheless, if this sparks some dialogue on the topic I hope that we can all stand to learn something.
 
 ## The qualities of a good question
 At the risk of being labeled a reductionist I'm going to propose a number of qualities that I think contribute to making a good question. Of course, every opportunity for questions is different and one cannot always hope to articulate the 'perfect' question; yet I do believe that aspiring to the core qualities below could serve to improve any potential questions. Good questions are:
@@ -542,7 +542,7 @@ I think that there are potentially other qualities of a good question that we co
 - Support: Research dissemination is intended as a dialogue. Can you demonstrate support for the researcher through a related research program you are a part of? 
 
 ## Strategies
-I'll preface this by saying these are not science-backed recommendations. Most of these come from either expeirence, or from common wisdom. So many will likely be familiar to you already anyway.
+I'll preface this by saying these are not science-backed recommendations. Most of these come from either experience, or from common wisdom. So many will likely be familiar to you already anyway.
 - Intentional listening: We've all drifted off during talks and lectures, so we know that doing so can be damaging to one's understanding of the content of the talk. It can be difficult to maintain focus, especially throughout longer talks, but there are some things that you can do:
     - Reduce distractions: Turn off your phone; keep your laptop stored away (unless you are using it for notes, but then make sure you limit the chance of notifications, etc.)
     - Maintain eye contact: Focusing on the speaker (or their slides) will help to keep your attention centred on the talk content.
@@ -591,12 +591,12 @@ I'll preface this by saying these are not science-backed recommendations. Most o
 ## Significance
 Martin-Lof has clearly positioned this paper as significant with respect to other major developments in the field by referencing important work by Dijkstra, Hoare, and Brouwer, among others. Martin-Lof is clearly responding to significant discussions in the field at the time, specifically the divide between classical and constructivist approaches to mathematics and logic, and to the increasing relevance of computer programming as a tool of scientific inquiry.
 
-Martin-Lof makes a clear statement of significance at the end of page 503 when he discusses his project for intutionistic type theory - a new formal system within constructive mathematics that attempts to close the gap between the constructive approach and the pratice of programming.
+Martin-Lof makes a clear statement of significance at the end of page 503 when he discusses his project for intuitionistic type theory - a new formal system within constructive mathematics that attempts to close the gap between the constructive approach and the practice of programming.
 
 In particular, Martin-Lof makes the claim that in his type theory the axiom of choice doesn't limit the development of rigorous mathematical proof in the way that might be expected - and furthermore provides a construction of the axiom of choice. Rather, Martin-Lof points to the law of the excluded middle as being the most critical concern for the formalization of reasoning in intuitionistic type theory.
     
 ## Soundness
-The bulk of the paper is concerend with the rules of inference for the typing judgements that Martin-Lof has developed for intutionistic type theory. These are sound, and Martin-Lof demonstrates this through the construction of a representation of the axiom of choice via his inference rules.
+The bulk of the paper is concerned with the rules of inference for the typing judgements that Martin-Lof has developed for intuitionistic type theory. These are sound, and Martin-Lof demonstrates this through the construction of a representation of the axiom of choice via his inference rules.
 
 There is some work left to the reader, in that Martin-Lof does not clearly demonstrate the derivation of the rules of inference (see below), but he argues this this paper "is not the place for such detailed explanations". 
 
