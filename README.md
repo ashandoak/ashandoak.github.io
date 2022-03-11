@@ -5,6 +5,7 @@ __CSC595 | Term Portfolio Project__ | Ashley Blacquiere V00134139
 <a id="overview"></a>
 
 # Overview
+
 This document is a record of my learning journey in *CSC 595 Research Methods* with Dr. Hausi Muller. If you're interested in learning more about Lean check out the [Lean Prover Community](https://leanprover-community.github.io/)!
 
 # Table of contents
@@ -15,8 +16,10 @@ This document is a record of my learning journey in *CSC 595 Research Methods* w
 4. [Research talk best practices & discussion](#research-talk)
 5. [Proposed talk: How to ask good questions](#proposed-talk)
 6. [Paper review: Constructive Mathmatics and Computer Programming](#paper-review)
-7. [References](#references)
-8. [Useful resources](#resources)
+7. [Thesis introduction](#thesis-intro)
+8. [Literature review & Bruce's suggestions](#lit-review)
+9. [References](#references)
+10. [Useful resources](#resources)
 
 ***
 
@@ -31,7 +34,7 @@ __Class notes:__ I liked that Dr. Muller has asked everyone to speak in the clas
 
 There were plenty of people who stated that their projects were not fully identified yet, and I don't really mind saying this, but I would rather give it a bit more serious thought - knowing that I can make an attempt in lecture 2. I did notice in listening to the other pitches that the most interesting were those that had some clear connection to broader issues or research disciplines, or bigger humanist concepts. This is something that I think I lack.
 
-I was also struck (my 'aha!' moment for the day) by the advice to offer a _call to action_ at the end of an elevator pitch. This is a key idea for sure - not so much perhaps for a research talk, but definitely for an elevator pitch. I think this is something I'd like to try to incorportate into my pitch on Thursday.
+I was also struck (my 'aha!' moment for the day) by the advice to offer a _call to action_ at the end of an elevator pitch. This is a key idea for sure - not so much perhaps for a research talk, but definitely for an elevator pitch. I think this is something I'd like to try to incorporate into my pitch on Thursday.
 
 __General reflection:__ I can't say that I was entirely sure what to expect from CSC 595: I have heard varying reports about the course in previous years, but I was also aware that this was Dr. Muller's first time \[recently?\] teaching the course. I was, however, pleasantly surprised by the first lecture, particularly on the use of Jupyter Notebooks as a tool for _literate programming_ and the focus on each student's personal _learning journey_.
 
@@ -163,7 +166,7 @@ Thoughts on my pitch:
 * I think my pace was good, and I think the Alice and Bob thing worked.
 * I was actually nervous - not until I was standing at the podium, but I felt some nerves. This surprised me, as I spend a lot of time in classrooms in front of students (see my discussion of nervousness above), and this was a fairly safe space! I put it down to this being one of the few times in recent years that I have presented as a student in front of students - and I want everyone to like me! :)  
 
-__General reflection:__ I've been thinking a bit about questions: There was lots of opportunity to ask questions during the pitch presentations, and they were all quite good, I think. At research talks, however, it's not atypical to have those meandering type of questions that are often thought of as posturing. In, I think, Simon Peyton-Jones' talk he addressed the idea of the "aggressive" question and how to handle it during a talk, but I'm thinking about this from the other perspective: How to *ask* a good question.
+__General reflection:__ I've been thinking a bit about questions: There was lots of opportunity to ask questions during the pitch presentations, and they were all quite good, I think. At research talks, however, it's not atypical to have those meandering type of questions that are often thought of as posturing. In, I think, Simon Peyton Jones' talk he addressed the idea of the "aggressive" question and how to handle it during a talk, but I'm thinking about this from the other perspective: How to *ask* a good question.
 
 The reason being that I think some of those rambling questions might less often be aggressive posturing, and perhaps more often a symptom of uncertainty. I think there is perhaps value in discussing the *right* way to ask a question.
 
@@ -286,9 +289,9 @@ Slides for this class come from [Writing a thesis or dissertation](www.scribbr.c
 - A glossary is a useful tool (at the beginning of the thesis) to help the audience better understand the upcoming content of the thesis. Start the glossary from the first day of writing.
 - It's good practice to write the introduction early, as this will change dramatically over the course of research. To modify an introduction is easier than to write from scratch... An introduction should include:
     - Establish research topic
-    - Problem statement - just state where you currently are
+    - Problem statement - just state where you currently are. The final problem statement should be crisp.
     - Motivation and background - perhaps this will change if your research target changes
-    - Define the scope of research - if you define the scope you don't have to say "this is outside of the scope of my research..."
+    - Definite the scope of research - if you define the scope you don't have to say "this is outside of the scope of my research..."
     - Show the work's significance, relevance, impact - somewhat interchangeable. Thinking through this helps bound and direct your research.
     - State research questions and objectives - this is hard. It depends heavily on evaluation.
     - State expected contributions - should appear in abstract, introduction and conclusions. 
@@ -297,41 +300,57 @@ Slides for this class come from [Writing a thesis or dissertation](www.scribbr.c
 __General notes:__
 In retrospect, in response to my last set of general notes, and after having completed most of the individual paper review, the five criteria of the review process are more distinct than I initially thought. This lecture was fairly useful in helping to provide some distinguishing features as well, especially in regards to contributions and how they relate to novelty, and in contrast to significance. 
 
-I'm still pretty far out from making writing my main activity, but I can definitely appreciate the advice provided today - write early! write often! Probably better advice has rarely been given; I've certainly handed it out to my own students on many occasions (and, on many occasions, have despaired to learn they didn't take such excellent advice... haha). So in with that in mind, let's give it a go: 
+I'm still pretty far out from making writing my main activity, but I can definitely appreciate the advice provided today - write early! write often! Probably better advice has rarely been given; I've certainly handed it out to my own students on many occasions (and, on many occasions, have despaired to learn they didn't take such excellent advice... haha). So in with that in mind, let's give it a go - see [Thesis introduction](#thesis-intro).
 
-### Introduction
 
-#### Establish research topic
-- Formal verification tools in Lean 
-- Monadic programming and dependent type theory
-- Game-based proof of security in cryptographic protocols
+## Lecture 14 (Mar. 3, 2022)
+__Class notes:__
+Slides for this class come from [Writing a thesis or dissertation](www.scribbr.com/category/dissertation). The following notes are some best practices and key notes from the lecture:
+- The thesis abstract should be a summary of the entire thesis *but is not an introduction*. The abstract is a more formal component and should be limited in length. The abstract should include the following:
+    - State main topic and aims of research - problem statement
+    - Describe methods
+    - Summarize contributions
+    - State significance
+    - State conclusions
+    - *Do not include future work* - these are ideas, not formal contributions, so put these in the conclusion.
+- The background and related work is founded in the literature review. There is no need to go far into fundamentals - you can make some assumptions - but you should demonstrate the connection between your work and your sources. This section is also an opportunity for you to evaluate your sources and draw conclusions. While this may be the source of your problem statement there is no need to repeat it here, as it will likely be restated in the research methodology (next chapter).
+- Methodology (recommended text: [Research Design: Qualitative, Quantitative and Mixed Methods Approaches](https://www.amazon.ca/Research-Design-Qualitative-Quantitative-Approaches/dp/1506386709)) starts with the problem statements and states each research question with a detailed discussion of the approach used to address the question.
+    - Class activity: What is one KPI that I can use to evaluate success in a research question? The soundness of the proofs I construct in Lean.
+        - Other ideas might be time and space complexity and big O
+- Contributions should follow approximately the same outline provided in the methodology chapter that reports contributions concisely and objectively. Be wary of subjective interpretations!
+- Discussion is where contributions are interpreted. Consider as well alterative interpretations, threats to validity and acknowledge limitations (this is *not* talking about 'out of scope' issues - which shouldn't appear if scope is well-defined). It is worth discussing when plans change - you may have started on one path, but modified goals part way through. This can be a useful insight for readers. Questions to ask:
+    - Did contributions meet expectations? Was there anything surprising?
+    - Did they fit established framework?
+    - What factors influenced an unexpected results?
+- Conclusions is a brief summary of the thesis (similar to the abstract): answer research questions (did you succeed? does the question need to be rephrased?); summarize contributions and emphasize the significance and potential impact; discuss future research (do not include this elsewhere - only in conclusion). *Do not* introduce any new data, interpretations or arguments.
 
-#### Problem statement
-The cryptographic primitives presented in [6] depend on a proof of the left-over hash lemma. I aim to develop the necessary theory and tactics in Lean to provide a proof of the left-over hash lemma.
+## Lecture 15 (Mar. 7, 2022)
+__Class notes:__
+- Hmm... I don't have a supervisory committee. I should talk to Bruce about this.
+- I should have a better handle on grad studies processes - I've skimmed through the handbook, but not recently, so I should give it another read.
+- Notes on literature review:
+    - 50 - 100 papers total for MSc? 150 for PhD.
+    - Systematic lit review (meaning a lit review per research question): Probably about 10 or 15 papers per question.
+    - Purpose: Establish some reasonable confidence in your knowledge of the subject; important for oral exam (MSc) and candidacy (PhD).
+    - Demonstrate knowledge: Chapter 2 of MSc thesis or candidacy exam for PhD. Should be able to answer: what are the top three papers (or ten!); who are the top three researchers (or five or ten!) - a demonstration of expertise and knowledge in a specific field.
+    - Update audience / committee members: Chapter 2 is a state of the art. References should be current and should demonstrate engagement with the current field. Having an understanding of the history is critical to build the contemporary view.
+    - The quality of a *bibliography* is in part demonstrated by the right types of sources for your field. For CS, highest quality tends to be from peer-reviewed conference and journal papers, but also thesis/dissertation and peer reviewed books.
+    - The literature review should identify: 
+        - Major concepts in the field - including necessary background, mathematics, etc.
+        - Snapshots - specific milestones in time or research areas that have demonstrated 'great leaps forward' etc. in the field.
+        - Your summary - including relationships (to other work), classification (based on your research), 
+    - A question to be addressed by lit review: Does the proposal advance the state-of-the-art and introduce an innovative approach?
+    
+__General notes:__
+The last three classes have focused on writing a thesis and on literature review. Although there is [extant documentation](https://www.uvic.ca/students/graduate/thesis-dissertation/scope-structure-and-formatting/index.php) on the organization of the thesis, this has been quite valuable, as I had yet to read it fully. It's also good to get some tips and ideas on what to avoid and what to capitalize on in terms of content and approach.
 
-#### Motivation and background 
-Proof assistants and formal verification tools are becoming more prevalent in research mathematics. Cryptographic researchers have also increasingly been using formal verification tools (e.g. EasyCrypt, and various libraries of Coq). This is a developing field that has potential significance and societal benefit.
+I think more than anything this topic has helped crystalize Dr. Muller's advice in regards to knowing one's field - top 3 researchers and top 3 papers, etc. Having a handle on this is clearly critical, and something that I'm missing at present - though I've started to make some improvements (i.e. have asked Bruce for some ideas, which he provided - see [Literature review](#lit-review) below). 
 
-#### Define the scope of research
-- Lean proof assistant and programming language
-- Monadic programming
-- Dependent type theory (not really, but I find it interesting, and understanding it helps me understand Lean)
-- Computational soundness (Bruce's research)
-- Game-based security proofs of cryptographic security
+This sentiment about having a clear grasp of field was echoed in the discussion on literature review as well - which makes sense, since the lit review is part of the dissertation. I think the lit review was a much more enlightening and instructive - or maybe it's just a reflection of where I'm at in my own progress. I can definitely see where there is a considerable gap in my knowledge that needs to be addressed. 
 
-#### Show the work's significance, relevance, impact 
-- Adding more theory to the Lean mathlib library is a big benefit to the Lean community
-- Demonstrating security in cryptographic protocols / primitives is important to communications...
-
-#### State research questions and objectives
-
-#### State expected contributions
-- Additional mathlib libraries
-
-#### Give an overview of your structure
+Actually, I'm surprised that the lit review wasn't the first topic covered in the course. It would seem that having a lit review in place would be very helpful when developing an elevator pitch, but I can see how developing the pitch independent of the lit review is a good way to keep the focus on one's own work. 
 
 ***
-
 [Back to top](#overview)
 
 <a id="elevator-pitch"></a>
@@ -420,7 +439,7 @@ My part in this is in the development of proof assistant (i.e. [Lean](https://le
 ### Complete script
 Hi, my name is Ashley and I am a master's student in the department of computer science. You might have heard of Alice and Bob; they've been trading secret messages back and forth as part of cryptographic research since 1978. Over those years Alice and Bob managed to continually improve their methods and keep their communication secure, despite major advances in computational power.
 
-But the cryptographic tools Alice and Bob use *are* fallible - sometimes surprisingly so. Recent cryptographic research has demonstrated that it is possible to build new cryptographic tools from unexpected sources; but the proof that these techniques are secure - in a cryptographic sense - is a challenge best handled by formal verification.
+But the cryptographic tools Alice and Bob use *are* fallible - sometimes surprisingly so. Recent cryptograhpic research has demonstrated that it is possible to build new cryptographic tools from unexpected sources; but the proof that these techniques are secure - in a cryptographic sense - is a challenge best handled by formal verification.
 
 In my research project I use the Lean programming language to demonstrate the security of these cryptographic techniques. Embedded in Lean is a trusted kernel that can be relied upon in the development of rigorous mathematical proof. These proofs are rigorous because Lean's trusted kernel is sound, implying the validity of all logic and proof that stem from the kernel. My research also helps to push the boundaries of interactive proof systems and to advance the broader project of proof automation in mathematics.
 
@@ -500,7 +519,7 @@ __In summary:__ In this highly practical talk McConnel presents a number of best
 
 ## Reflections on talks by Winston, Simon, Dumount and McConnell on research talks
 
-Unquestionably, the common thread through all of these resources are the concepts of intuition, story, and humanist appeal. When it comes especially to shorter modes, such as the elevator pitch and the 20-minute research talk, the important of providing some meaningful intuition that can communicate your key ideas to the audience is critical. Good stories (or analogies, as with the traffic stop / brain activity 3MT talk above) can help cement these institutions into longer-term memory, while appealing to humanist ideals helps to ground intuition in meaning real-world concerns.
+Unquestionably, the common thread through all of these resources are the concepts of intuition, story, and humanist appeal. When it comes especially to shorter modes, such as the elevator pitch and the 20-minute research talk, the important of providing some meaningful intuition that can communicate your key ideas to the audience is critical. Good stories (or analogies, as with the traffic stop / brain activity 3MT talk above) can help cement these intuitions into longer-term memory, while appealing to humanist ideals helps to ground intuition in meaning real-world concerns.
 
 From a practical talk / slide construction perspective I'm also pretty enamoured of *effective redundancy* and *relentless pruning*. I think the idea of effective redundancy speaks a bit to the question I tried to ask about "slides as props" during the second Winston class. I don't think I clearly articulated what I was feeling, but there were something about the distinction between *slides as communication tools* and *slides as performance* that was sort of tickling my brain... I'm still not sure there is really anything there, but the idea that slides exist as a tool of [universal design for learning](https://udlguidelines.cast.org/) feels right, whereas the idea of slides as a tool for motivation (as a more traditional *slideshow* might be) seems appealing, but less is clearly less accessible. I think, fundamentally, I dislike slides as they are typically conceived and I struggle to find value in them (from a teaching perspective) when I know that students often expect them.
 
@@ -517,7 +536,7 @@ I've only done this for one set of lectures, but at this point, I think I'm a co
 
 <a id="proposed-talk"></a>
 
-# Proposed Talk: How to pose good questions at a research talk
+# Proposed talk: How to pose good questions at a research talk
 
 ## Motivation
 After our in-class research elevator pitch presentations I was reflecting on the process of asking good questions of a researcher during a research talk. I believe that asking questions is an important step in the learning process: As an instructional faculty member of a teaching college I try to push my students to ask questions as often as possible because I think that asking questions, even simple simple questions, helps to establish concrete foundations for learning. Opening a dialogue can be the first step to a meta-cognitive approach to learning. 
@@ -572,64 +591,137 @@ I'll preface this by saying these are not science-backed recommendations. Most o
 * Y. I am knowledgeable on this topic
 
 ## Brief summary of the paper
-
+Per Martin-Lof justifies the argument that constructive mathematics and the act of programming are one and the same via the presentation of a formal system of his design, known as intuitionistic type theory. Martin-Lof contends that his type theory is precise enough to serve as a programming language and demonstrates this through a direct comparison of his type theory to common mathematical conventions, including notation and the evaluation of expressions, and also by introduction of the foundational judgements of his type theory and the inference rules used for the construction of formal proof. These judgements and inference rules can be used equally well from a constructive mathematics standpoint, or from a computer programming standpoint. Martin-Lof further elaborates this connection by arguing for the uninhabited-ness of the law of the excluded middle, but conversely providing a sound construction for the axiom of choice via the inference rules of his type theory.
 
 ## Contributions of the paper
 * A new logical system: Intuitionistic type theory
 * A demonstration of the natural connection between the constructive approach to mathematics and computer programming
-* A demonstration of a constructive proof, and in particular the inhabitness of the axiom of choice
+* A demonstration of a constructive proof, and in particular the inhabited-ness of the axiom of choice
 
 ## What are the strengths of the paper?
 * A convincing argument of significance
 * A concise demonstration of the novelty of the work (judgements, inference rules, and the construction of the axiom of choice)
-* Articulate and convincing prose 
+* Highly articulate and convincing prose 
 
 ## What are the weaknesses of the paper?
-* Typesetting in some sections favour brevity over clarity
-* A lack of support for inference rule derivations
+* Typesetting and notation in some sections favour brevity over clarity
+* A lack of support for inference rule justifications
 
 ## Significance
 Martin-Lof has clearly positioned this paper as significant with respect to other major developments in the field by referencing important work by Dijkstra, Hoare, and Brouwer, among others. Martin-Lof is clearly responding to significant discussions in the field at the time, specifically the divide between classical and constructivist approaches to mathematics and logic, and to the increasing relevance of computer programming as a tool of scientific inquiry.
 
-Martin-Lof makes a clear statement of significance at the end of page 503 when he discusses his project for intuitionistic type theory - a new formal system within constructive mathematics that attempts to close the gap between the constructive approach and the practice of programming.
+Martin-Lof makes a clear statement of significance at the end of page 503 when he discusses his project for intuitionistic type theory: a new formal system within constructive mathematics that attempts to close the gap between the constructive approach and the practice of programming.
 
-In particular, Martin-Lof makes the claim that in his type theory the axiom of choice doesn't limit the development of rigorous mathematical proof in the way that might be expected - and furthermore provides a construction of the axiom of choice. Rather, Martin-Lof points to the law of the excluded middle as being the most critical concern for the formalization of reasoning in intuitionistic type theory.
+In particular, Martin-Lof makes the claim that in his type theory the axiom of choice doesn't limit the development of rigorous mathematical proof, and furthermore provides a construction of the axiom of choice. Rather, Martin-Lof points to the law of the excluded middle as being the most critical concern for the formalization of reasoning in intuitionistic type theory.
     
 ## Soundness
-The bulk of the paper is concerned with the rules of inference for the typing judgements that Martin-Lof has developed for intuitionistic type theory. These are sound, and Martin-Lof demonstrates this through the construction of a representation of the axiom of choice via his inference rules.
+The bulk of the paper is concerned with the rules of inference for the typing judgements that Martin-Lof has developed for intuitionistic type theory. These are sound (in a theoretical sense), and Martin-Lof demonstrates this through the construction of a representation of the axiom of choice via his inference rules. The results themselves certainly support the main research questions relating to the use of a formal logic / system as a tool for both constructive mathematics and programming. 
 
 There is some work left to the reader, in that Martin-Lof does not clearly demonstrate the derivation of the rules of inference (see below), but he argues this this paper "is not the place for such detailed explanations". 
 
 ## Novelty
-As mentioned above, Martin-Lof is successful in grounding his work in the contemporary conversation relating to formal logics. The paper is successful in demonstrating novelty in terms of the demonstration of the inference rules of intuitionistic type theory. Certainly there would be an audience for this paper. 
+As mentioned above, Martin-Lof is successful in grounding his work in the contemporary conversation relating to formal systems; and furthermore, as an extension of his own work, this paper demonstrates a continuation of previously novel results. The paper is successful in demonstrating novelty in terms of the presentation of the inference rules of intuitionistic type theory. Certainly there would be an audience for this paper, although relatively narrow in scope.
 
 ## Verifiability & transparency
 There is a certain degree to which this paper is clearly a product of its time and of the ongoing contemporary conversation around formal logic. Retrospectively, it is hard to understand at what stage of the development of formal logic Martin-Lof's paper appeared (from an absolute sense, it is easy to understand; but from a relative sense - i.e. concerning what knowledge a contemporary of Martin-Lof's might have - it is much more difficult to comprehend where Martin-Lof fits). That said, for anyone well-versed in the topic at the time I think there is enough here to go on. 
 
-However, the lack of clear derivation of inference rules (as referenced above) might be a limiting factor of the paper. Certainly, it's not a very inclusive approach; although the process of deriving inference rules is likely familiar to many readers, there may be those who lack the necessary background. 
+However, the lack of clear justification of inference rules might be a limiting factor of the paper. Certainly, it's not a very inclusive approach. Although the process of deriving and justifying inference rules is likely familiar to many readers, there may be those who lack the necessary background. 
 
 ## Presentation
 The paper itself is a pleasure to read; I very much enjoyed Martin-Lof's prose. I've had similar experiences reading other older papers and texts (i.e. by Dijkstra and others) and do wish that more papers were written with the same kind of appreciation for language today.
 
-The organization of the paper is excellent. There is a clear lead in to the key points and a deeper exploration of the key results. Although there is a long section of simply inference rules throughout, the paper is easy to navigate and to predict.
+The organization of the paper is excellent. There is a clear lead-in to the key points and a deeper exploration of the key contributions. Although there is a long section that contains simply the inference rules, the paper is easy to navigate and to predict.
 
-The only concern I have is with the section that describes the four main judgements, both assumption-free and with assumptions. I found that following the argumentation in this section (encompassing pages 508 through 510) was particularly challenging. This is perhaps also an issue in the inference rules section. Perhaps better typesetting could solve this issue.
+The only concern I have is with the section that describes the four main judgements, both assumption-free and with assumptions. I found that following the argumentation in this section (encompassing pages 508 through 510) was particularly challenging, in part due to notational choices, and in part due to typesetting choices. This is also somewhat of an issue in the inference rules section. 
 
 ## Questions for the author
-
+- Can you provide further justification for your decision not to include inference rule derivations and justifications?
+- Are the notational choices (especially those based on AUTOMATH and for substitutions) the optimal choices for readability? Are there alternatives that might be more concise and readable?
 
 ***
+[Back to top](#overview)
+
+<a id="thesis-intro"></a>
+
+# Thesis introduction 
+The following are some basic notes that I have compiled that may eventually become the introduction to my thesis. At this stage (Mar. 2022) I'm still sufficiently early in the process that there are many unknowns to deal with. Additionally, I've learned through the process of CSC 595 that I'm really missing out on having a solid foundation in some of the topics that my research encompasses. Therefore, once I've completed a meaningful literature review (scheduled for this spring and summer) I'll be able to fill in the sections below with much more confidence. 
+
+## Establish research topic
+- Formal verification tools in Lean 
+- Monadic programming and dependent type theory
+- Game-based proof of security in cryptographic protocols
+
+## Problem statement
+The cryptographic primitives presented in [6] depend on a proof of the left-over hash lemma. I aim to develop the necessary theory and tactics in Lean to provide a proof of the left-over hash lemma. 
+
+## Motivation and background 
+Proof assistants and formal verification tools are becoming more prevalent in research mathematics. Cryptographic researchers have also increasingly been using formal verification tools (e.g. EasyCrypt, and various libraries of Coq). This is a developing field that has potential significance and societal benefit.
+
+I think I'll need to include something here about type theory and monadic programming, which to me seem to be the key components in developing the necessary Lean tactics. I don't think I need to have significant cryptographic understanding (our research partners will handle that side of things), but understanding the game-based method of proof of security seems critical.
+
+## Define the scope of research
+- Lean proof assistant and programming language
+- Monadic programming
+- Dependent type theory (a deep understanding isn't important, mostly only for background, so it might not belong here in scope)
+- Computational soundness (Bruce's research)
+- Game-based security proofs of cryptographic security
+
+## Show the work's significance, relevance, impact 
+- Adding more theory to the Lean mathlib library is a big benefit to the Lean community
+    - I doubt my work will contribute much to the understanding of either monadic programming or type theory, but perhaps there is something in the intersection that will be interesting.
+- Demonstrating security in cryptographic protocols / primitives is important to communications
+    - I'd like to take this idea of cryptographic applications further, however. It would be useful to see how this might play out in cryptographic research in the long term.
+
+## State research questions and objectives
+It's too difficult to articulate clear questions at this stage, but I could state some loose objectives:
+- Develop a proof of the left over hash lemma in Lean
+- Develop a set of Lean tactics that can be used to prove the security of cryptographic primitives, relying on the left over hash lemma
+- Help to develop the community of Lean users working on cryptographic applications (the number of people working in Lean on crypto is quite small at the moment)
+
+## State expected contributions
+- Additional mathlib libraries
+
+## Give an overview of your structure
+
+***
+[Back to top](#overview)
+
+<a id="lit-review"></a>
+
+# Literature review & Bruce's suggestions
+I've been using Zotero for some years as a tool to collect papers that I use for teaching and for pedagogical research. It was an easy transition to continue using Zotero as part of my MSc work; however, I've realized that there are features of Zotero that I haven't taken advantage of, including the proper use of BibTex, tags and paper-specific summary comments. I plan to take some time this spring to review the papers that I have current stored in Zotero and the organizational scheme that I'm using. At this point, I haven't yet used Zotero to do anything other than store papers that may become part of my literature review, so this is good timing. 
+
+As a follow-up to Dr. Muller's suggestions on the top papers in my field I Bruce's opinion. Given that our project sits something at the intersection of formal verification, interactive theroem proving (ITP) and cryptography, but Bruce's background is more cryptography, the papers tend to lean in that direction. I've listed them here because I haven't yet stored copies of them in Zotero, but will do so when I start the review process this spring. Better to have them here than in a random email thread.
+
+Bruce suggests that picking a top 10 in ITP would be hard, but a few would be:
+- "Thiery Coquand would stand as a real pioneer" 
+- "...there are even earlier pioneers like Milner and Plotkin or Paulson in the ML/HOL tradition."
+- "Going back even further I guess there are people like de Bruijn."
+- "\[Jeremy\] Avigad is definitely influential."
+
+I guess I'd add to this Martin-Lof. Maybe also some homotopy people?
+
+Bruce suggests the following top papers in symbolig crypto:
+- "Gavin Lowe... used automated methods to show that the Needham-Schroeder protocol was insecure."
+- "Abadi & Rogaway is very fundamental in introducing the  notion of 'Computational Soundness'" 
+- "\[Bruce's\] paper with Russell Impagliazzo in \[the\] vein \[of 'computational soundess'\], and subsequent work by Daniele Micciancio." 
+- "Giles Barthe has many papers and systems like CertiCrypt and EasyCrypt." 
+- "John Mitchell's group has a variety of approaches (including Protocol Composition Logic PCL.)"
+- "The idea of 'sequences of games' has been very influential (see papers by Halevi and Shoup)... has influenced researchers doing automated systems (like Bruno Blanchet)."
+
+***
+
 [Back to top](#overview)
 
 <a id="references"></a>
 
 # References
 
-[1] Inger Mewburn. 2010. How to Sell Your Theseis in 3 Minutes (or Less). The Thesis Whisperer. Retrieved January 27, 2022 from https://thesiswhisperer.com/2010/07/01/how-to-sell-your-thesis-in-3-minutes-or-less/.
+[1] Inger Mewburn. 2010. How to Sell Your Thesis in 3 Minutes (or Less). The Thesis Whisperer. Retrieved January 27, 2022 from https://thesiswhisperer.com/2010/07/01/how-to-sell-your-thesis-in-3-minutes-or-less/.
 
 [2] Elevator Pitch Practice. Manning College  of Information & Computer Sciences. Retrieved January 18, 2022 from https://www.cics.umass.edu/careers/articles/elevator-pitch-practice/.
 
-[3] Gretchen Busl and Matthew Capdevielle. The Elevator Pitch: Presenting Your Rsearch in Conversation. University of Notre Dame. Retrieved January 18 2022 from https://graduateschool.nd.edu/assets/76988/elevator_pitch_8_28_2012.pdf/.
+[3] Gretchen Busl and Matthew Capdevielle. The Elevator Pitch: Presenting Your Research in Conversation. University of Notre Dame. Retrieved January 18 2022 from https://graduateschool.nd.edu/assets/76988/elevator_pitch_8_28_2012.pdf/.
 
 [4] MMU. One Minute Elevator Pitch. Retrieved January 18, 2022 from https://www.mmu.ac.uk/media/mmuacuk/content/documents/research/Impact-Tool----Elevator-Pitch.pdf
 
