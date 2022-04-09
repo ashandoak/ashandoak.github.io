@@ -6,7 +6,9 @@ __CSC595 | Term Portfolio Project__ | Ashley Blacquiere V00134139
 
 # Overview
 
-This document is a record of my learning journey in *CSC 595 Research Methods* with Dr. Hausi Muller. If you're interested in learning more about Lean check out the [Lean Prover Community](https://leanprover-community.github.io/)!
+This document is a record of my learning journey in *CSC 595 Research Methods* with Dr. Hausi Muller.
+
+If you'd like to view this document live, check out my [GitHub Page](https://ashandoak.github.io).
 
 # Table of contents
 
@@ -15,11 +17,13 @@ This document is a record of my learning journey in *CSC 595 Research Methods* w
 3. [Notes & reflections on assigned homework](#homework-reflections)
 4. [Research talk best practices & discussion](#research-talk)
 5. [Proposed talk: How to ask good questions](#proposed-talk)
-6. [Paper review: Constructive Mathmatics and Computer Programming](#paper-review)
+6. [Paper review: Constructive Mathematics and Computer Programming](#paper-review)
 7. [Thesis introduction](#thesis-intro)
 8. [Literature review & Bruce's suggestions](#lit-review)
-9. [References](#references)
-10. [Useful resources](#resources)
+9. [A consolidated discussion of CSC595 guest lectures](#guest-lectures)
+10. [Learning outcomes](#learning-outcomes)
+11. [References](#references)
+12. [Useful resources](#resources)
 
 ***
 
@@ -302,7 +306,6 @@ In retrospect, in response to my last set of general notes, and after having com
 
 I'm still pretty far out from making writing my main activity, but I can definitely appreciate the advice provided today - write early! write often! Probably better advice has rarely been given; I've certainly handed it out to my own students on many occasions (and, on many occasions, have despaired to learn they didn't take such excellent advice... haha). So in with that in mind, let's give it a go - see [Thesis introduction](#thesis-intro).
 
-
 ## Lecture 14 (Mar. 3, 2022)
 __Class notes:__
 Slides for this class come from [Writing a thesis or dissertation](www.scribbr.com/category/dissertation). The following notes are some best practices and key notes from the lecture:
@@ -349,6 +352,191 @@ I think more than anything this topic has helped crystalize Dr. Muller's advice 
 This sentiment about having a clear grasp of field was echoed in the discussion on literature review as well - which makes sense, since the lit review is part of the dissertation. I think the lit review was a much more enlightening and instructive - or maybe it's just a reflection of where I'm at in my own progress. I can definitely see where there is a considerable gap in my knowledge that needs to be addressed. 
 
 Actually, I'm surprised that the lit review wasn't the first topic covered in the course. It would seem that having a lit review in place would be very helpful when developing an elevator pitch, but I can see how developing the pitch independent of the lit review is a good way to keep the focus on one's own work. 
+
+## Lecture 17 (Mar. 14, 2022)
+__Class notes:__ Today we are going through the conference papers from each group. Each group will cover the following:
+- Brief summary of paper
+- Strengths and weaknesses
+- How did discussion go 
+- Improvements
+- Brief discussion of expertise
+- Accept or reject
+
+Spoke briefly with Dr. Muller after class. He expressed interest in my 'good questions' presentation, so I'll go through and make up some slides in prep for possibly as early as next Thursday. Dr. Muller also asked if I knew of [Robert 'Corky' Cartwright](https://profiles.rice.edu/faculty/robert-corky-cartwright), who is known for type theory and formal systems, I think. Will have to look him and his work up.
+
+__General notes:__ I think the presentation of our (my and Addie's) review work went well. I admit to not feeling really well-prepared for it, but luckily I didn't have to go first. :)  I made a point of speaking slowly because I knew I would need to think through as I was presenting, but I think that worked well. About 2/3rds of the way through Derek Robinson (sp?) gave a huge sigh - I guess he had left his mic on - which sort of distracted me but kinda kicked me into high gear for the last little bit. I wasn't offended by the sigh, though it was kind of a funny moment.
+
+## Lecture 18 (Mar. 17, 2022)
+__Class notes:__ Guest lecture by [Dr. Alex Thomo](https://www.uvic.ca/ecs/computerscience/people/faculty/profiles/thomo-alex.php) - distrbuted computing, databases and knowledge-based systems. Large-scale data mining and formal languages and their applications to databases.
+
+### Finding a problem
+- Should be important
+- Should have real data
+- Incremental progress (on existing problems) is ok
+- Clear metrics for success
+
+Once you find a problem the challenge is in finding a good way to extend it - can it be reframed, made more accurate, make it faster, use different hardware, or different data types, can you explain why it works well or can you make it simpler?
+- Finding a good problem can sometimes be an exploratory approach. Dr. Thomo demonstrated a use-case of a series of k-core graph papers from 2015 to 2022 that started simply as an exploration and was initially the topic of a series of MSc theses. This project eventually became the topic of PhD work, and had applications in COVID research most recently.
+- It's interesting to see the progression of the particular topic over time. From a meta perspective - would you say that this is a good measure of success? Was this a one-off, or is this common?
+- Finding a good problem can open the door to many other applications.
+
+One approach to finding a good problem is to reproduce a paper:
+- Find a paper from a top venue - sometimes this results in finding errors in the original.
+- Benefits:
+    - Learn state of art techniques at a deep level
+    - Find problems to be fixed
+    - Good practice at creative problems solving
+
+### Solving a problem
+- Standing on the shoulders of giants - repurpose some useful research from other / older research taht can be applied to your problem.
+    - This seems like the critical moment: It takes a significant intuition to make this kind of leap between a problem an prior work.
+    - Technology transfer is a good method - bringing ideas from other disciplines to your discipline.
+    - Implementation of a \[good\] paper is a great way to identify potential problems.
+- Relaxing or modifying a problem - sometimes a problem is too difficult, and so a relaxation is necessary.
+     - Polya: "If there is a problem you can solve, then there is an easier problem you can solve. Find it."
+
+### Writing a paper
+- Always, always, always check your references. Don't just assume - always verify.
+- Always create a GitHub repo for your project - this increases the reproducibility of your work, increases the chances of citations and makes your work more credible. It helps others continue your work.
+- The line between paper acceptance and rejection is quite small (interesting case study from SIGKDD that demonstrates the standard deviation of reviewers scores is *much* larger than the difference between the means of accepted vs rejected papers).
+- Always make the following points clear:
+    - What is the problem?
+    - Why is it interesting and important?
+    - Why is it hard (why do naive approaches fail?)
+    - What hasn't it been solved before? 
+    - What are the key components of approach and results?
+- Write a good abstract. Some suggestions:
+    - Open with a question - this makes the problem clear from the outset.
+    - Make motivation clear by contextualizing the problem.
+    - What is missing in the field, or why has other work been unsatisfactory (should have a statement starting with although, however, etc.)
+    - Propose the solution
+    - Demonstrate the problem and the contributions
+
+### Additional questions
+- Open research? At what stage does creating those artifacts become important?
+- Visualizations - how important are they to defining a problem - how often do you have to come up with bespoke visualizations?
+- As students: How do we build the necessary intuition?
+- Are datasets necessary in all disciplines? How critical are those figures?
+
+## Lecture 19 (Mar. 21, 2022)
+Didn't take any notes, but listened to the remaining conference paper reviews.
+
+## Lecture 20 (Mar. 24, 2022)
+__Class notes:__ Guest lecture by Sowmya Somanath on HCI research methods.
+
+### Research methods
+- Overarching reasearch motivation: "Leveraging and extending the richness and situatedness of physical interactions through the creation of new interactive experiences that can help diverse people accomplish creative and/or everyday tasks using technology in meaningful ways."
+    - Technology cannot be escaped, so there is reason to consider this type of question
+    - Personal interests in making which informs research
+- Overarching methodology: Human-centred system design
+     - Inspiration (empathy and design challenge)
+     - Ideation (challennge and potential solutions)
+     - Implementation (prototype potential solutions and test)
+- Design space - a potential design space at a component level
+    - What is the physical form?
+    - What is the virtual form?
+- Rapid ethonography: research under constraints proposed initially by industry, but often used in academia as well, due to time constraints (e.g. students can't perform a longitudinal study, etc.)
+     
+### Additional questions
+- Physical routines are a rich source of research potential... 
+- Is there much tension between academic research and industry in HCI research?
+- How much is the broader HCI reserach community influenced by industry, or vice versa? 
+
+## Lecture 21 (Mar. 28, 2022)
+__Class notes:__ Guest lecture by Dr. Kui Wu. Theoretical foundation of networks and other network related applications.
+- A personal reflection on the process of writing papers
+- Take methods with a grain of salt
+
+### Reading papers
+- There are too many papers! So you should know how to collect papers:
+    - Searching (top conferences and journals, [csrankings.org](http://csrankings.org), top researchers' sites) Don't waste time on low-profile sites!
+    - Filtering:
+        - First round: Read title, abstract and intro (80% papers out) Is the story interesting? Is the problem real / hard? What type of paper and contributions?
+        - Second round: Read related work and references (90% papers out) Is the related work well organized? What is state-of-the-art? What papers have I read? Does this paper cite a paper I know?
+        - Third round: Problem formulation (95% papers out) Are the assumptions reasonable? Is the model clear? Is the problem formally formulated? Does it make sense?
+    - Tackling : Try to solve the problem yourself (this leads to a *better* opportunity for appreciation)
+    - Appreciating: *Then* read the technical details of the paper. Are the proposed solutions better than mind? What ideas/tricks outsmarted me? Do their methods have room for improvement?
+    
+### Writing papers
+1. Blueprint
+    - Helps define the story you want to tell
+    - Use LaTeX and vector-based drawing tools
+    - A good title is important (consider filtering approach above)
+    - [Writing Perfect Papers talk](https://www.youtube.com/watch?v=FxGo5hn8dTw)
+    - The intro needs to tell an attractive story
+        - General background / context
+        - Clearly define the problem (no tech definitions, no mathematic notations; an illustrative figure helps)
+        - *Why is the problem challenging?*
+        - Point to existing solutions and pitfalls
+        - High-level intuitive explantion of solution idea
+        - Highlights of contributions
+        - (optional) structure and content of rest of paper
+    - Related work is very important for drawing a clear line between existing work and new ideas. It should be thorough, yet brief.
+
+### Additional questions
+- Green computing? I guess there is a close relationship to network research and green computing?
+
+## Lecture 22 (Mar. 31, 2022)
+__Class notes:__ Today I presented my talk on asking good questions in a research setting. I think the talk went well; it felt pretty smooth to me (despite a few technical glitches) and I kept it to just over 15 minutes. I think the ideas probably came across pretty clearly (based on discussion after), and I think Johanna's addition of the 'clarification, expansion, transposition' framework worked really well.
+
+No one was really jumping up to discuss afterwards, although those who did contribute with Dr. Muller's prompting did have some great things to say. I really appreciated Derek's words about nerves, and I think there were some other great discussion points too. Unfortunately, I didn't write them down, because I was trying to be 100% present. The one that I did right down was Dr. Muller's addition of 'pertinant' as a key quality of a good question. I think that's a good one, and could probably replace 'respectful' since I inteded 'respectful' to capture a whole host of similar things, but it's somewhat redudant with the other qualities.
+
+### STAR method for interviews
+Structured behavioural-based interiew method
+
+#### Situation
+- Describe a situation that you were in or a task that you needed to complete
+- Describe a specific situation, rather than a generalized description of a situation - be specific
+- Provide sufficient detail so that the interviewer understands
+- Situation can be from a previous job, a volunteer experience, or any relevant event
+
+#### Task
+- What was the task at hand and what goal were you working toward?
+
+#### Action
+- Describe the actions you took with sufficient detail and focus on yourself
+- What specific teps did you take anw what was your contribution?
+- Don't just describe what the team did, but what you did
+- Use the world "I", not "we" when describing actions
+
+#### Result
+- Describe the outcome of your actions and don't be shy about taking credit for your behaviour
+- What happened? How did the event end?
+- What did you accomplish? What did you learn?
+- Make sure your answer contains multiple positive results
+
+### How to prepare for a behavioural interview
+- Recall recent situations (course work, work experience, leadership, teamwork, intitiative, planning, customer service)
+- Prepare short descriptions
+- Be sure each story has a beginning, middle, and end
+- Be sure the outcome or result reflects positively on you (even if the result was unfavourable)
+- Be honest
+- Be specific 
+- Vary your examples over different experiences
+
+## Lecture 22 (Apr. 4, 2022)
+__Class notes:__ Lecture on quantum computing by Dr. Hausi Muller. I didn't take as many notes during this talk because I wanted to try to follow the content closely, knowning that it might be somewhat challenging material. I can't say I followed everything completely, but it was a pretty fascinating talk. I haven't really given a lot of thought to quantum computing - other than the science news articles I read now and then - and I didn't even realize before the beginning of this course that quantum computing was so *accessible*. I'm definitely convinced now that it's something I should learn about - if only I can find the time. :)
+
+## Lecture 23 (Apr. 7, 2022)
+__Class notes:__ Guest lecture on emperical methods by Dr. Margaret-Anne Storey
+
+- Based on the paper [The who, what, how of software engineering research: a socio-technical framework](https://www.margaretstorey.com/blog/2020/09/01/WWH-Framework/)
+<img src="img/research-cred.png" width="400" />
+- The image above points to the idea that credibility can be low if reserach focuses on a narrow problem; or relevance can be low if taking a top down 'ivory tower' approach to research.
+- Developer studies often surface human-related/focused problems within a development context, rather than technical issues (e.g., build times). This points to the fact that human-centered issues are critical to reserach goals.
+
+### Who-What-How framework
+- "All models are wrong, but some are useful" - quote by _____
+- The human aspects of software development are critically human-centered; nothing we produce is exclusively technical, all is socio-technial.
+- Types of research methods and philosophical stance inform the ways in which you justify your research contribution.
+- There is a divide between reserach that develop a *solution* versus research that produce a *description* (i.e., defining a potential problem to be solved).
+    - But many papers are focused on developing solutions *outside* of the socio-technical context!
+    - Publish or perish? Pushing researchers in the wrong direction?
+    - Solutions are important - but what about balance?
+
+### Additional questions
+- There is a connection here with SOTL
+- Epistimeoplogical divide: Is there some future scenario where you see this helping to forge a more interdisciplinary approach to research? Do you think this is possible?
 
 ***
 [Back to top](#overview)
@@ -708,6 +896,65 @@ Bruce suggests the following top papers in symbolig crypto:
 - "Giles Barthe has many papers and systems like CertiCrypt and EasyCrypt." 
 - "John Mitchell's group has a variety of approaches (including Protocol Composition Logic PCL.)"
 - "The idea of 'sequences of games' has been very influential (see papers by Halevi and Shoup)... has influenced researchers doing automated systems (like Bruno Blanchet)."
+
+***
+
+[Back to top](#overview)
+
+<a id="guest-lectures"></a>
+
+# A consolidated discussion of CSC 595 guest lectures
+
+## General discussion
+We had guest lectures by Dr. Alex Thomo, Dr. Sowmya Somanath, Dr. Kui Wu, and Dr. Margaret-Anne Storey. I found all of these lectures to be valuable. The speakers were diverse, articulate, well-prepared, and were clearly engaged by the students and their questions. I think they were all really well chosen, and I'm happy to have heard them all speak. I'm going to give a few brief sentences for each that identify what struck me the most from each of their talks.
+
+### Dr. Alex Thomo
+I found Dr. Thomo's talk to be very engaging and practical. Although Dr. Thomo's interest clearly lies in the direction of data analysis as a key research method, I think many of the steps he suggested as part of developing good research questions are absolutely much more widely applicable. And the presentation of his method was highly compelling: I particularly liked the clear motivations that Dr. Thomo provided as part of his argument, as well as the clear line that he drew across works published by his research group in recent years that support the demonstration of his research process. Very cool. Additionally, many of his 'writing a paper' suggestions further confirmed what we learned earlier in the semester.
+
+### Dr. Sowmya Somanath
+I found Dr. Somanath's talk to be very interesting, but it wasn't new to me, having taken her topics class in designing creativity support tools last year. The talk she gave was very much a high level summary of much of the content that we covered in greater detail last year (in fact, I think the talk was part of her opening/introductory lecture in the class). Nevertheless, it is a great talk, and I got a lot out of that course - it was really valuable, and very well put-together. I do really appreciate Dr. Somanath's perspective on design solutions, which seem to be very much in line with Dr. Storey's.
+
+### Dr. Kui Wu
+I found Dr. Wu's talk to be very practical as well. I think there were some great suggestions on how best to manage the flood of papers that are regularly produced. I still feel that I'm not entirely sure it's humanly possible to even use Dr. Wu's very precise method, but I think I still lack the breadth of foundational knowledge that would allow me to quickly filter especially on the second step, based on references and state-of-the-art. Obviously, that takes some considerable practice. I'll probably put Dr. Wu's method to good use this spring as I work to build out that breadth of knowledge.
+
+### Dr. Margaret-Anne Storey
+I found Dr. Storey's talk to be hands down the most fascinating of the four. I've previously taught a number of courses (prior to my current appointment) that took a primarily cultural studies look at technology and society. As part of this, and due in part to my background in mathematics and computing, I've spent quite a bit of time reading related research in the social sciences and cultural studies. In fact, this was in part the impetus for me to complete an MSc in computer science: I have a great interest in the socio-technical, especially from a computational standpoint, and I wanted to build on that knowledge.
+
+I've actually sent Dr. Storey a rather lengthy email asking about her opinions on the socio-technical from a cultural studies perspective, and if she thinks there is value in that particular approach (rather than a pure social sciences approach). I haven't heard back from her yet, but I'll report back here when I do.
+
+## Some key take-aways
+Aside from some of the points above, the following are the key points that I have distilled from these four talks:
+- Research must be pertinent, motivated by real-world problems/concerns, and cannot be divorced from the social.
+- A research question is never just *one* question - it is a starting point and may potentially support many years of valuable and profitable investigations.
+- Transparency is a key element of quality research.
+- Research contributions must be sound; the problems they solve must be challenging and meaningful. 
+
+***
+
+[Back to top](#overview)
+
+<a id="learning-outcomes"></a>
+
+# Learning outcomes
+The learning outcomes of CSC595 as stated in the official syllabus are:
+> 1. prepare and evaluate research papers
+> 2. perform literature reviews
+> 3. give effective oral and written presentations
+> 4. contribute to a positive work environment
+> 5. develop a term portfolio Jupyter Notebook
+
+I think all five were valuable in their own right, but I'm going to say that the first three were the most important. While I think there were elements of 'contributing to a positive work environment' (i.e. in group work and in supporting other students in their presentations), and while I did enjoy the process of writing this learning journey using Jupyter Notebooks, I feel both had relatively small parts to play in what and how I learned.
+
+The most surprising thing I learned had to do with learning outcome #3: While I don't think I would claim to be an expert when it comes to presentation skills, I've definitely spent a lot of time presenting material in the last eight years, and so certainly have a lot of experience. The same can certainly be said for the development of presentation materials. Coming into this class I recognized that refreshing knowledge in those domains would be a valuable exercise to help me improve my skills - but I didn't expect to learn quite as much as I did. There was a lot of really great material and ideas covered in the early part of the course relating to this learning outcome; I've reflected on a lot of it, and some of it I've already adopted. Perhaps the focus on research is what made it different from other recommendations I've seen/read about presenting before; either way, it has been quite valuable.
+
+The first two learning outcomes were anticipated elements of the course, and I'm happy to say I learned a lot about both. I think learning outcome #1 was especially eye opening to me, as I realized throughout the semester that I could certainly do more to help further develop my breadth of knowledge. Honestly, now I wish I had taken this course last year, since in fall 2021 I had more time available for research, and having had this course under my belt would have been useful. That said, I'm happy that I got a chance to take Dr. Somanath's class this time last year, and I'm happy to have had Dr. Muller this year for CSC595.
+
+I think I learned a lot about learning outcome #2 and literature review as well, especially as it relates to my current research practice. I think there is still a bit of a gap in regards to systematic literature review (although now that I think about it, I wonder if I just missed that class? There was one class I missed - lecture 10 Feb. 10 - because I couldn't attend live that day and the recording failed. Maybe systematic literature review was covered then? It might make sense based on the content of lecture 11).
+
+I guess too that I was a little surprised that we didn't discuss specific research methods in detail this semester. I don't think this is really a problem - there was lots of other highly valuable content that I was happy to consume that on the whole will probably be more practically useful to me than would knowing about a bunch of research methods that I'll probably never use. And aside from that we did get little sneak peaks of various methods via the guest lectures at the end of the semester. And I've written down references (interspersed above) of papers and texts relating to research methods that I'd like to read. I'm looking forward to doing so, because I think it is an interesting topic, but really, I'm much more interested in the interdisciplinary approach hinted to by Dr. Storey in her talk at the end of the semester.
+
+As for personal epiphanies and insights: I've written about many and they are interspersed throughout this document. Many of the most critical are already captured in these appendix sections added to after the class notes. I think this is a document that I will continue to refer to, and perhaps to revise, for many years to come. Thank you, Dr. Muller, for providing such a rich learning experience!
+
 
 ***
 
