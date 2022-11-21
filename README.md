@@ -536,7 +536,7 @@ __Class notes:__ Guest lecture on emperical methods by Dr. Margaret-Anne Storey
 
 ### Additional questions
 - There is a connection here with SOTL
-- Epistimeoplogical divide: Is there some future scenario where you see this helping to forge a more interdisciplinary approach to research? Do you think this is possible?
+- Epistemological divide: Is there some future scenario where you see this helping to forge a more interdisciplinary approach to research? Do you think this is possible?
 
 ***
 [Back to top](#overview)
